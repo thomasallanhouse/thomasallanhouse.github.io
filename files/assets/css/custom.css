@@ -1,0 +1,23 @@
+table.timetable{
+	text-align: center;
+	font-size: small;
+}
+th.timetable { 
+	font-family: "open sans"; 
+	font-weight: bold;
+	padding: 0.85ex;
+	border-radius: 2ex; 
+	background-color: rgba(213,213,213,0.8);
+}
+td.timetable { 
+	font-family: "open sans"; 
+	padding: 0.85ex;
+	border: 0px ;
+	border-radius: 2ex; 
+	background-color: #CCCCFF;
+	color: #000000;
+}
+td.freehour { 
+	background-color: rgba(213,213,213,0.3);
+}
+
