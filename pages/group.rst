@@ -98,10 +98,6 @@ Postgraduate
   co-supervised by `Paul Dark
   <https://www.research.manchester.ac.uk/portal/paul.m.dark.html>`__.
 
-* `Miguel Silva <http://www.dcc.fc.up.pt/~msilva/index.html>`__, working on
-  health information diffusion in social networks, main supervisor
-  `Caroline Jay <https://www.research.manchester.ac.uk/portal/caroline.jay.html>`__
-
 * Bindu Vekaria, working on flexible clinical predictive models in
   collaboration with `Spectra Analytics <http://www.spectraanalytics.com/>`__.
   Main supervisor `Glen Martin
@@ -111,6 +107,11 @@ Postgraduate
 
 Former
 ------
+
+* `Miguel Silva <http://www.dcc.fc.up.pt/~msilva/index.html>`__, working on
+  health information diffusion in social networks, main supervisor
+  `Caroline Jay <https://www.research.manchester.ac.uk/portal/caroline.jay.html>`__
+  Destination: Postdoc in Portugal.
 
 * `Francesca Scarabel <https://sites.google.com/view/scarabelfrancesca/home>`__, working
   on models of epidemics with continuous representation of immune 
