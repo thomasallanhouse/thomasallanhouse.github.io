@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modelling Herd Immunity | Thomas House's Personal Website</title>
+<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../rss.xml">
+<link rel="canonical" href="https://personalpages.manchester.ac.uk/staff/thomas.house/posts/modelling-herd-immunity.html">
+<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script><style type="text/css"> @import "assets/css/custom.css"; </style>
+<meta name="author" content="Thomas House">
+<link rel="prev" href="semester-1-2018.html" title="Semester 1 2018" type="text/html">
+<link rel="next" href="why-zero-is-so-hard.html" title="Why Zero is so Hard" type="text/html">
+<meta property="og:site_name" content="Thomas House's Personal Website">
+<meta property="og:title" content="Modelling Herd Immunity">
+<meta property="og:url" content="https://personalpages.manchester.ac.uk/staff/thomas.house/posts/modelling-herd-immunity.html">
+<meta property="og:description" content="The current coronavirus outbreak (COVID-19) has raised questions about herd
+immunity, social distancing measures, and the relationship between these. In
+particular, at time of writing the following Tw">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-03-14T09:54:38Z">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Header and menu bar -->
+<div class="container">
+      <header class="blog-header py-3"><div class="row nbb-header align-items-center">
+          <div class="col-md-3 col-xs-2 col-sm-2" style="width: auto;">
+            <button class="navbar-toggler navbar-light bg-light nbb-navbar-toggler" type="button" data-toggle="collapse" data-target=".bs-nav-collapsible" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse bs-nav-collapsible bootblog4-search-form-holder">
+                
+            </div>
+        </div>
+          <div class="col-md-6 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
+            <a class="navbar-brand blog-header-logo text-dark" href="../">
+
+            <span id="blog-title">Thomas House's Personal Website</span>
+        </a>
+          </div>
+            <div class="col-md-3 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
+            <nav class="navbar navbar-light bg-white"><ul class="navbar-nav bootblog4-right-nav">
+<li class="nav-item">
+    <a href="modelling-herd-immunity.rst" id="sourcelink" class="nav-link">Source</a>
+    </li>
+
+
+                    
+            </ul></nav>
+</div>
+    </div>
+</header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
+            <ul class="navbar-nav nav-fill d-flex w-100">
+<li class="nav-item">
+<a href="../about.html" class="nav-link">About</a>
+                </li>
+<li class="nav-item">
+<a href="../blog/index.html" class="nav-link">Blog</a>
+                </li>
+<li class="nav-item">
+<a href="../research.html" class="nav-link">Research</a>
+                </li>
+<li class="nav-item">
+<a href="../teaching.html" class="nav-link">Teaching</a>
+                </li>
+<li class="nav-item">
+<a href="../publications.html" class="nav-link">Publications</a>
+                </li>
+<li class="nav-item">
+<a href="../group.html" class="nav-link">Group</a>
+
+                
+            </li>
+</ul>
+</div>
+<!-- /.navbar-collapse -->
+</nav>
+</div>
+
+<div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+        
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Modelling Herd Immunity</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Thomas House
+            </span></p>
+            <p class="dateline">
+            <a href="#" rel="bookmark">
+            <time class="published dt-published" datetime="2020-03-14T09:54:38Z" itemprop="datePublished" title="2020-03-14 09:54">2020-03-14 09:54</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="modelling-herd-immunity.html#disqus_thread" data-disqus-identifier="cache/posts/modelling-herd-immunity.html">Comments</a>
+
+
+            
+        </p>
+<p class="sourceline"><a href="modelling-herd-immunity.rst" class="sourcelink">Source</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <p>The current coronavirus outbreak (COVID-19) has raised questions about herd
+immunity, social distancing measures, and the relationship between these. In
+particular, at time of writing the following Tweet has thousands of retweets
+and likes.</p>
+<p><span class="raw-html"><blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">“With the number of known <a href="https://twitter.com/hashtag/coronavirus?src=hash&amp;ref_src=twsrc%5Etfw">#coronavirus</a> cases today in South Korea, Italy, Iran, France, Spain and the US, Wuhan was already in lockdown.”<br><br>Read why every day we wait to make decisions is costlier that’s the previous:<a href="https://t.co/6hX74wiZgF">https://t.co/6hX74wiZgF</a></p>— Tomas Pueyo (@tomaspueyo) <a href="https://twitter.com/tomaspueyo/status/1237421094912397314?ref_src=twsrc%5Etfw">March 10, 2020</a>
+</blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></span></p>
+<p>I think that this presents an incomplete picture of the policy considerations.</p>
+<img alt="Before herd immunity" class="align-left" src="../Herd.png" style="width: 240px;"><img alt="After herd immunity" class="align-right" src="../Herd2.png" style="width: 240px;"><p>To see why, let us start by defining the most important concept in epidemic
+modelling, the basic reproduction number <span class="raw-html">\(R_0\)</span>. This is equal to
+the average number of infections caused by a case early in the epidemic, so that
+for <span class="raw-html">\(R_0 = 3\)</span>, the early transmission tree might look something like
+the cartoon on the left. This exhibits the exponential growth that is so worrying
+at present. We have first one case, then three, then nine, then 27, then ...</p>
+<p>Now suppose that immunity has been built up, either through vaccination or by
+illness followed by recovery, so that two thirds of people are immune. This
+means that each case will have three contacts that would have caused infection
+in the absence of immunity, but on average two of these will be immune and so
+the situation looks more like the cartoon on the right. We say that the
+reproduction number is reduced from its basic value to <span class="raw-html">\(R_t = 1\)</span>.</p>
+<p>While the individuals in the cartoon with a crossed out arrow pointing towards
+them are literally immune, the people that they would have infected benefit
+from <strong>herd immunity</strong>. They can be infected if exposed, but will not be. This
+is particularly beneficial to the people who are particularly vulnerable to the
+disease, who might die if they catch it. The general formula for herd immunity
+is that when over <span class="raw-html">\((1 - (1/R_0))\times 100\%\)</span> of the population
+is immune, then the epidemic will start to die out.</p>
+<p>Now suppose we simulate a more realistic scenario. The Python code for this is
+at the bottom of this post, and it is much simpler than the models that are
+typically used to guide policy, but captures the basic phenomena of interest.
+In particular, we suppose that we can reduce transmission through social
+distancing measures like closing schools and workplaces, but that this is only
+possible for three weeks. This represents the fact that the costs of not
+educating children and not doing other activities can become quite large over
+time, and in some cases can lead to levels death and illness that could exceed
+those due to the unchecked epidemic. Running the epidemic model with these
+interventions gives the following results for cases at a given moment and total
+cases over time.</p>
+<img alt="../output_5.png" src="../output_5.png"><p>It seems that the Tweet was right - look at the difference the early intervention
+makes! But now let us zoom out of the graph; then the picture looks like the below.</p>
+<img alt="../output_6_0.png" src="../output_6_0.png"><p>In fact, the later intervention dramatically reduces the burden on the healthcare
+system, cutting in half the maximum numbers ill and potentially needing treatment
+at any one time, and significantly reduces the final number infected, which the
+earlier interventions fail to do.</p>
+<p>The reason that this happens is that social distancing measures do not lead to herd
+immunity, so once they are lifted the epidemic starts again. In the absence of a
+vaccine, it is therefore meaningless to speak about whether a policy 'aims' to get
+herd immunity or not, since every country in the world will reach herd immunity
+unless it is able to implement social distancing for an indefinite period of time.</p>
+<p>What mitigation policies should aim to do, therefore, is to reach herd immunity
+with the minimal human cost. This will be extremely difficult, and at every
+stage we will be dealing with large uncertainties. I would not want to be the
+person who ultimately made the policy decisions. But to say that early
+interventions are always better is incorrect.</p>
+<div class="code"><pre class="code ipython3"><a id="rest_code_fa8092e18d434d01afd0b32adb0ebe2e-1" name="rest_code_fa8092e18d434d01afd0b32adb0ebe2e-1" href="modelling-herd-immunity.html#rest_code_fa8092e18d434d01afd0b32adb0ebe2e-1"></a><span class="c1"># Pull in libraries needed</span>
+<a id="rest_code_fa8092e18d434d01afd0b32adb0ebe2e-2" name="rest_code_fa8092e18d434d01afd0b32adb0ebe2e-2" href="modelling-herd-immunity.html#rest_code_fa8092e18d434d01afd0b32adb0ebe2e-2"></a><span class="o">%</span><span class="k">matplotlib</span> inline
+<a id="rest_code_fa8092e18d434d01afd0b32adb0ebe2e-3" name="rest_code_fa8092e18d434d01afd0b32adb0ebe2e-3" href="modelling-herd-immunity.html#rest_code_fa8092e18d434d01afd0b32adb0ebe2e-3"></a><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<a id="rest_code_fa8092e18d434d01afd0b32adb0ebe2e-4" name="rest_code_fa8092e18d434d01afd0b32adb0ebe2e-4" href="modelling-herd-immunity.html#rest_code_fa8092e18d434d01afd0b32adb0ebe2e-4"></a><span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">integrate</span>
+<a id="rest_code_fa8092e18d434d01afd0b32adb0ebe2e-5" name="rest_code_fa8092e18d434d01afd0b32adb0ebe2e-5" href="modelling-herd-immunity.html#rest_code_fa8092e18d434d01afd0b32adb0ebe2e-5"></a><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</pre></div>
+<div class="code"><pre class="code ipython3"><a id="rest_code_ee753887ed3044be9574017f880f7b2c-1" name="rest_code_ee753887ed3044be9574017f880f7b2c-1" href="modelling-herd-immunity.html#rest_code_ee753887ed3044be9574017f880f7b2c-1"></a><span class="c1"># Represent the basic dynamics</span>
+<a id="rest_code_ee753887ed3044be9574017f880f7b2c-2" name="rest_code_ee753887ed3044be9574017f880f7b2c-2" href="modelling-herd-immunity.html#rest_code_ee753887ed3044be9574017f880f7b2c-2"></a><span class="k">def</span> <span class="nf">odefun</span><span class="p">(</span><span class="n">t</span><span class="p">,</span><span class="n">x</span><span class="p">,</span><span class="n">beta0</span><span class="p">,</span><span class="n">betat</span><span class="p">,</span><span class="n">t0</span><span class="p">,</span><span class="n">t1</span><span class="p">,</span><span class="n">sigma</span><span class="p">,</span><span class="n">gamma</span><span class="p">):</span>
+<a id="rest_code_ee753887ed3044be9574017f880f7b2c-3" name="rest_code_ee753887ed3044be9574017f880f7b2c-3" href="modelling-herd-immunity.html#rest_code_ee753887ed3044be9574017f880f7b2c-3"></a>    <span class="n">dx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
+<a id="rest_code_ee753887ed3044be9574017f880f7b2c-4" name="rest_code_ee753887ed3044be9574017f880f7b2c-4" href="modelling-herd-immunity.html#rest_code_ee753887ed3044be9574017f880f7b2c-4"></a>    <span class="k">if</span> <span class="p">((</span><span class="n">t</span><span class="o">&gt;=</span><span class="n">t0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">t</span><span class="o">&lt;=</span><span class="n">t1</span><span class="p">)):</span>
+<a id="rest_code_ee753887ed3044be9574017f880f7b2c-5" name="rest_code_ee753887ed3044be9574017f880f7b2c-5" href="modelling-herd-immunity.html#rest_code_ee753887ed3044be9574017f880f7b2c-5"></a>        <span class="n">beta</span> <span class="o">=</span> <span class="n">betat</span>
+<a id="rest_code_ee753887ed3044be9574017f880f7b2c-6" name="rest_code_ee753887ed3044be9574017f880f7b2c-6" href="modelling-herd-immunity.html#rest_code_ee753887ed3044be9574017f880f7b2c-6"></a>    <span class="k">else</span><span class="p">:</span>
+<a id="rest_code_ee753887ed3044be9574017f880f7b2c-7" name="rest_code_ee753887ed3044be9574017f880f7b2c-7" href="modelling-herd-immunity.html#rest_code_ee753887ed3044be9574017f880f7b2c-7"></a>        <span class="n">beta</span> <span class="o">=</span> <span class="n">beta0</span>
+<a id="rest_code_ee753887ed3044be9574017f880f7b2c-8" name="rest_code_ee753887ed3044be9574017f880f7b2c-8" href="modelling-herd-immunity.html#rest_code_ee753887ed3044be9574017f880f7b2c-8"></a>    <span class="n">dx</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="n">beta</span><span class="o">*</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span>
+<a id="rest_code_ee753887ed3044be9574017f880f7b2c-9" name="rest_code_ee753887ed3044be9574017f880f7b2c-9" href="modelling-herd-immunity.html#rest_code_ee753887ed3044be9574017f880f7b2c-9"></a>    <span class="n">dx</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">beta</span><span class="o">*</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span> <span class="o">-</span> <span class="n">sigma</span><span class="o">*</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<a id="rest_code_ee753887ed3044be9574017f880f7b2c-10" name="rest_code_ee753887ed3044be9574017f880f7b2c-10" href="modelling-herd-immunity.html#rest_code_ee753887ed3044be9574017f880f7b2c-10"></a>    <span class="n">dx</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">sigma</span><span class="o">*</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">sigma</span><span class="o">*</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<a id="rest_code_ee753887ed3044be9574017f880f7b2c-11" name="rest_code_ee753887ed3044be9574017f880f7b2c-11" href="modelling-herd-immunity.html#rest_code_ee753887ed3044be9574017f880f7b2c-11"></a>    <span class="n">dx</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">sigma</span><span class="o">*</span><span class="n">x</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">-</span> <span class="n">gamma</span><span class="o">*</span><span class="n">x</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+<a id="rest_code_ee753887ed3044be9574017f880f7b2c-12" name="rest_code_ee753887ed3044be9574017f880f7b2c-12" href="modelling-herd-immunity.html#rest_code_ee753887ed3044be9574017f880f7b2c-12"></a>    <span class="n">dx</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="n">gamma</span><span class="o">*</span><span class="n">x</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">-</span> <span class="n">gamma</span><span class="o">*</span><span class="n">x</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span>
+<a id="rest_code_ee753887ed3044be9574017f880f7b2c-13" name="rest_code_ee753887ed3044be9574017f880f7b2c-13" href="modelling-herd-immunity.html#rest_code_ee753887ed3044be9574017f880f7b2c-13"></a>    <span class="n">dx</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">=</span> <span class="n">gamma</span><span class="o">*</span><span class="n">x</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span>
+<a id="rest_code_ee753887ed3044be9574017f880f7b2c-14" name="rest_code_ee753887ed3044be9574017f880f7b2c-14" href="modelling-herd-immunity.html#rest_code_ee753887ed3044be9574017f880f7b2c-14"></a>    <span class="k">return</span> <span class="n">dx</span>
+</pre></div>
+<div class="code"><pre class="code ipython3"><a id="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-1" name="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-1" href="modelling-herd-immunity.html#rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-1"></a><span class="c1"># Parameters of the model</span>
+<a id="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-2" name="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-2" href="modelling-herd-immunity.html#rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-2"></a><span class="n">N</span> <span class="o">=</span> <span class="mf">6.7e7</span> <span class="c1"># Total population</span>
+<a id="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-3" name="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-3" href="modelling-herd-immunity.html#rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-3"></a><span class="n">i0</span> <span class="o">=</span> <span class="mf">1e-4</span> <span class="c1"># 0.5*Proportion of the population infected on day 0</span>
+<a id="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-4" name="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-4" href="modelling-herd-immunity.html#rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-4"></a><span class="n">tlast</span> <span class="o">=</span> <span class="mf">365.0</span> <span class="c1"># Consider a year</span>
+<a id="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-5" name="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-5" href="modelling-herd-immunity.html#rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-5"></a><span class="n">latent_period</span> <span class="o">=</span> <span class="mf">5.0</span> <span class="c1"># Days between being infected and becoming infectious</span>
+<a id="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-6" name="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-6" href="modelling-herd-immunity.html#rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-6"></a><span class="n">infectious_period</span> <span class="o">=</span> <span class="mf">7.0</span> <span class="c1"># Days infectious</span>
+<a id="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-7" name="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-7" href="modelling-herd-immunity.html#rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-7"></a><span class="n">R0</span> <span class="o">=</span> <span class="mf">2.5</span> <span class="c1"># Basic reproduction number in the absence of interventions</span>
+<a id="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-8" name="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-8" href="modelling-herd-immunity.html#rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-8"></a><span class="n">Rt</span> <span class="o">=</span> <span class="mf">0.75</span> <span class="c1"># Reproduction number in the presence of interventions</span>
+<a id="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-9" name="rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-9" href="modelling-herd-immunity.html#rest_code_8b9752c944c44d7d9b84f64bdc3e27b5-9"></a><span class="n">tend</span> <span class="o">=</span> <span class="mf">21.0</span> <span class="c1"># Number of days of interventions</span>
+</pre></div>
+<div class="code"><pre class="code ipython3"><a id="rest_code_e587635844604472a3e0abe05de209f8-1" name="rest_code_e587635844604472a3e0abe05de209f8-1" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-1"></a><span class="n">beta0</span> <span class="o">=</span> <span class="n">R0</span> <span class="o">/</span> <span class="n">infectious_period</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-2" name="rest_code_e587635844604472a3e0abe05de209f8-2" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-2"></a><span class="n">betat</span> <span class="o">=</span> <span class="n">Rt</span> <span class="o">/</span> <span class="n">infectious_period</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-3" name="rest_code_e587635844604472a3e0abe05de209f8-3" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-3"></a><span class="n">sigma</span> <span class="o">=</span> <span class="mf">2.0</span> <span class="o">/</span> <span class="n">latent_period</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-4" name="rest_code_e587635844604472a3e0abe05de209f8-4" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-4"></a><span class="n">gamma</span> <span class="o">=</span> <span class="mf">2.0</span> <span class="o">/</span> <span class="n">infectious_period</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-5" name="rest_code_e587635844604472a3e0abe05de209f8-5" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-5"></a>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-6" name="rest_code_e587635844604472a3e0abe05de209f8-6" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-6"></a><span class="n">t0ran</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="o">-</span><span class="mi">100</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mf">52.5</span><span class="p">,</span> <span class="mi">65</span><span class="p">])</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-7" name="rest_code_e587635844604472a3e0abe05de209f8-7" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-7"></a>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-8" name="rest_code_e587635844604472a3e0abe05de209f8-8" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-8"></a><span class="k">def</span> <span class="nf">mylab</span><span class="p">(</span><span class="n">t</span><span class="p">):</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-9" name="rest_code_e587635844604472a3e0abe05de209f8-9" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-9"></a>    <span class="k">if</span> <span class="n">t</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">:</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-10" name="rest_code_e587635844604472a3e0abe05de209f8-10" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-10"></a>        <span class="k">return</span> <span class="s2">"Start at "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" days"</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-11" name="rest_code_e587635844604472a3e0abe05de209f8-11" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-11"></a>    <span class="k">else</span><span class="p">:</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-12" name="rest_code_e587635844604472a3e0abe05de209f8-12" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-12"></a>        <span class="k">return</span> <span class="s2">"Baseline"</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-13" name="rest_code_e587635844604472a3e0abe05de209f8-13" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-13"></a>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-14" name="rest_code_e587635844604472a3e0abe05de209f8-14" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-14"></a><span class="n">sol</span><span class="o">=</span><span class="p">[]</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-15" name="rest_code_e587635844604472a3e0abe05de209f8-15" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-15"></a><span class="k">for</span> <span class="n">tt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">t0ran</span><span class="p">)):</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-16" name="rest_code_e587635844604472a3e0abe05de209f8-16" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-16"></a>    <span class="n">sol</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">integrate</span><span class="o">.</span><span class="n">solve_ivp</span><span class="p">(</span><span class="k">lambda</span> <span class="n">t</span><span class="p">,</span><span class="n">x</span><span class="p">:</span> <span class="n">odefun</span><span class="p">(</span><span class="n">t</span><span class="p">,</span><span class="n">x</span><span class="p">,</span><span class="n">beta0</span><span class="p">,</span><span class="n">betat</span><span class="p">,</span><span class="n">t0ran</span><span class="p">[</span><span class="n">tt</span><span class="p">],</span><span class="n">t0ran</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span><span class="o">+</span><span class="n">tend</span><span class="p">,</span><span class="n">sigma</span><span class="p">,</span><span class="n">gamma</span><span class="p">),</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-17" name="rest_code_e587635844604472a3e0abe05de209f8-17" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-17"></a>                              <span class="p">(</span><span class="mf">0.0</span><span class="p">,</span><span class="n">tlast</span><span class="p">),</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-18" name="rest_code_e587635844604472a3e0abe05de209f8-18" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-18"></a>                              <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">1.0</span><span class="o">-</span><span class="mf">2.0</span><span class="o">*</span><span class="n">i0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="n">i0</span><span class="p">,</span> <span class="n">i0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">]),</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-19" name="rest_code_e587635844604472a3e0abe05de209f8-19" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-19"></a>                              <span class="s1">'RK45'</span><span class="p">,</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-20" name="rest_code_e587635844604472a3e0abe05de209f8-20" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-20"></a>                              <span class="n">atol</span><span class="o">=</span><span class="mf">1e-8</span><span class="p">,</span>
+<a id="rest_code_e587635844604472a3e0abe05de209f8-21" name="rest_code_e587635844604472a3e0abe05de209f8-21" href="modelling-herd-immunity.html#rest_code_e587635844604472a3e0abe05de209f8-21"></a>                              <span class="n">rtol</span><span class="o">=</span><span class="mf">1e-9</span><span class="p">))</span>
+</pre></div>
+<div class="code"><pre class="code ipython3"><a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-1" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-1" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-1"></a><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-2" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-2" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-2"></a><span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-3" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-3" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-3"></a><span class="k">for</span> <span class="n">tt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">t0ran</span><span class="p">)):</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-4" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-4" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-4"></a>    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">sol</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span><span class="o">.</span><span class="n">t</span><span class="p">,</span><span class="n">N</span><span class="o">*</span><span class="p">(</span><span class="n">sol</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span><span class="o">.</span><span class="n">y</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="n">sol</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span><span class="o">.</span><span class="n">y</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">mylab</span><span class="p">(</span><span class="n">t0ran</span><span class="p">[</span><span class="n">tt</span><span class="p">]))</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-5" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-5" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-5"></a><span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">([</span><span class="mi">30</span><span class="p">,</span><span class="mi">70</span><span class="p">])</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-6" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-6" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-6"></a><span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mf">7e6</span><span class="p">])</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-7" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-7" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-7"></a><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Time (days)'</span><span class="p">)</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-8" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-8" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-8"></a><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'Number of infectious cases'</span><span class="p">)</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-9" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-9" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-9"></a><span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-10" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-10" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-10"></a><span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-11" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-11" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-11"></a><span class="k">for</span> <span class="n">tt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">t0ran</span><span class="p">)):</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-12" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-12" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-12"></a>    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">sol</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span><span class="o">.</span><span class="n">t</span><span class="p">,</span><span class="n">N</span><span class="o">*</span><span class="n">sol</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span><span class="o">.</span><span class="n">y</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">mylab</span><span class="p">(</span><span class="n">t0ran</span><span class="p">[</span><span class="n">tt</span><span class="p">]))</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-13" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-13" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-13"></a><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Time (days)'</span><span class="p">)</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-14" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-14" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-14"></a><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'Cumulative infections'</span><span class="p">)</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-15" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-15" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-15"></a><span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-16" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-16" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-16"></a><span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">([</span><span class="mi">30</span><span class="p">,</span><span class="mi">70</span><span class="p">])</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-17" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-17" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-17"></a><span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mf">1e7</span><span class="p">])</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-18" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-18" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-18"></a><span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<a id="rest_code_9b4402e7b6684fd0b9a7a51050661292-19" name="rest_code_9b4402e7b6684fd0b9a7a51050661292-19" href="modelling-herd-immunity.html#rest_code_9b4402e7b6684fd0b9a7a51050661292-19"></a><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+<div class="code"><pre class="code ipython3"><a id="rest_code_1b884f9296954433bf79f30eb5000951-1" name="rest_code_1b884f9296954433bf79f30eb5000951-1" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-1"></a><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-2" name="rest_code_1b884f9296954433bf79f30eb5000951-2" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-2"></a><span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-3" name="rest_code_1b884f9296954433bf79f30eb5000951-3" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-3"></a><span class="k">for</span> <span class="n">tt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">t0ran</span><span class="p">)):</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-4" name="rest_code_1b884f9296954433bf79f30eb5000951-4" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-4"></a>    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">sol</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span><span class="o">.</span><span class="n">t</span><span class="p">,</span><span class="n">N</span><span class="o">*</span><span class="p">(</span><span class="n">sol</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span><span class="o">.</span><span class="n">y</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="n">sol</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span><span class="o">.</span><span class="n">y</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">mylab</span><span class="p">(</span><span class="n">t0ran</span><span class="p">[</span><span class="n">tt</span><span class="p">]))</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-5" name="rest_code_1b884f9296954433bf79f30eb5000951-5" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-5"></a><span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="n">tlast</span><span class="p">])</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-6" name="rest_code_1b884f9296954433bf79f30eb5000951-6" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-6"></a><span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mf">1.2e7</span><span class="p">])</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-7" name="rest_code_1b884f9296954433bf79f30eb5000951-7" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-7"></a><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Time (days)'</span><span class="p">)</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-8" name="rest_code_1b884f9296954433bf79f30eb5000951-8" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-8"></a><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'Number of infectious cases'</span><span class="p">)</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-9" name="rest_code_1b884f9296954433bf79f30eb5000951-9" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-9"></a><span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-10" name="rest_code_1b884f9296954433bf79f30eb5000951-10" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-10"></a><span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-11" name="rest_code_1b884f9296954433bf79f30eb5000951-11" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-11"></a><span class="k">for</span> <span class="n">tt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">t0ran</span><span class="p">)):</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-12" name="rest_code_1b884f9296954433bf79f30eb5000951-12" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-12"></a>    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">sol</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span><span class="o">.</span><span class="n">t</span><span class="p">,</span><span class="n">N</span><span class="o">*</span><span class="n">sol</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span><span class="o">.</span><span class="n">y</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">mylab</span><span class="p">(</span><span class="n">t0ran</span><span class="p">[</span><span class="n">tt</span><span class="p">]))</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-13" name="rest_code_1b884f9296954433bf79f30eb5000951-13" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-13"></a><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Time (days)'</span><span class="p">)</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-14" name="rest_code_1b884f9296954433bf79f30eb5000951-14" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-14"></a><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'Cumulative infections'</span><span class="p">)</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-15" name="rest_code_1b884f9296954433bf79f30eb5000951-15" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-15"></a><span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-16" name="rest_code_1b884f9296954433bf79f30eb5000951-16" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-16"></a><span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="n">tlast</span><span class="p">])</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-17" name="rest_code_1b884f9296954433bf79f30eb5000951-17" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-17"></a><span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mf">6.2e7</span><span class="p">])</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-18" name="rest_code_1b884f9296954433bf79f30eb5000951-18" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-18"></a><span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<a id="rest_code_1b884f9296954433bf79f30eb5000951-19" name="rest_code_1b884f9296954433bf79f30eb5000951-19" href="modelling-herd-immunity.html#rest_code_1b884f9296954433bf79f30eb5000951-19"></a><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+    </div>
+    <aside class="postpromonav"><nav><ul class="pager hidden-print">
+<li class="previous">
+                <a href="semester-1-2018.html" rel="prev" title="Semester 1 2018">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="why-zero-is-so-hard.html" rel="next" title="Why Zero is so Hard">Next post</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
+        
+    
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="nikolademo",
+            disqus_url="https://personalpages.manchester.ac.uk/staff/thomas.house/posts/modelling-herd-immunity.html",
+        disqus_title="Modelling Herd Immunity",
+        disqus_identifier="cache/posts/modelling-herd-immunity.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" integrity="sha384-3lJUsx1TJHt7BA4udB5KPnDrlkO8T6J6v/op7ui0BbCjvZ9WqV4Xm6DTP6kQ/iBH" crossorigin="anonymous"></script><script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$latex ','$'], ['\\(','\\)']]}});
+        </script></article><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer"></footer>
+</div>
+</div>
+
+
+        <script src="../assets/js/all-nocdn.js"></script><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
+    </script>
+</body>
+</html>
+
