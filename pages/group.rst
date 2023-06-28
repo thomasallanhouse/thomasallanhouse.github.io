@@ -71,12 +71,6 @@ Postgraduate
   and `Lorenzo Pellis
   <https://www.research.manchester.ac.uk/portal/lorenzo.pellis.html>`__.
 
-* Jacob Curran-Sebastian, working on modelling and inference for combatting
-  antimicrobial resistance.  Main supervisor `Ian Hall
-  <https://www.research.manchester.ac.uk/portal/ian.hall.html>`__.
-  Co-supervised by `Lorenzo Pellis
-  <https://www.research.manchester.ac.uk/portal/lorenzo.pellis.html>`__.
-
 * Alex Koch, working on the circadian clock and FCS data. Main supervisor
   `Andrew Loudon
   <https://www.research.manchester.ac.uk/portal/andrew.loudon.html>`__.
@@ -102,6 +96,13 @@ Postgraduate
 
 Former
 ------
+
+* Jacob Curran-Sebastian, working on modelling and inference for combatting
+  antimicrobial resistance.  Main supervisor `Ian Hall
+  <https://www.research.manchester.ac.uk/portal/ian.hall.html>`__.
+  Co-supervised by `Lorenzo Pellis
+  <https://www.research.manchester.ac.uk/portal/lorenzo.pellis.html>`__.
+  Destination: Postdoc in Denmark.
 
 * Rajenki Das, working on mood-pain endotype discovery in mHealth data with `Microsoft
   Research <https://www.microsoft.com/en-us/research/people/dabelgra/>`__. Co-supervised
