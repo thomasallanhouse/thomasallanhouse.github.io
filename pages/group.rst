@@ -88,11 +88,6 @@ Postgraduate
   Co-supervised by `Yang Han
   <https://personalpages.manchester.ac.uk/staff/yang.han/>`__.
 
-* Rajenki Das, working on mood-pain endotype discovery in mHealth data with `Microsoft
-  Research <https://www.microsoft.com/en-us/research/people/dabelgra/>`__. Co-supervised
-  by `Mark Lunt <https://www.research.manchester.ac.uk/portal/mark.lunt.html>`__
-  and `Mark Muldoon <https://personalpages.manchester.ac.uk/staff/mark.muldoon/>`__.
-
 * Luke Webb, working on models of emergency response capacity. Main supervisor
   `Ian Hall <http://www.maths.manchester.ac.uk/people/staff/profile/?ea=ian.hall>`__;
   co-supervised by `Paul Dark
@@ -107,6 +102,12 @@ Postgraduate
 
 Former
 ------
+
+* Rajenki Das, working on mood-pain endotype discovery in mHealth data with `Microsoft
+  Research <https://www.microsoft.com/en-us/research/people/dabelgra/>`__. Co-supervised
+  by `Mark Lunt <https://www.research.manchester.ac.uk/portal/mark.lunt.html>`__
+  and `Mark Muldoon <https://personalpages.manchester.ac.uk/staff/mark.muldoon/>`__.
+  Destination: Postdoc in Cambridge.
 
 * `Miguel Silva <http://www.dcc.fc.up.pt/~msilva/index.html>`__, working on
   health information diffusion in social networks, main supervisor
