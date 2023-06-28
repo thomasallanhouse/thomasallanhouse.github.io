@@ -2,4 +2,7 @@ cache
 .doit.db
 __pycache__
 output
+.DS_Store
+.conf.py.swp
+.doit.db.db
 
