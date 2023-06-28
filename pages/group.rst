@@ -28,15 +28,6 @@ Postdoctoral
   and `Lorenzo Pellis
   <https://www.research.manchester.ac.uk/portal/lorenzo.pellis.html>`__.
 
-* `Francesca Scarabel <https://sites.google.com/view/scarabelfrancesca/home>`__, working
-  on models of epidemics with continuous representation of immune 
-  competence in collaboration with `Ian Hall
-  <https://www.research.manchester.ac.uk/portal/ian.hall.html>`__,
-  and `Lorenzo Pellis
-  <https://www.research.manchester.ac.uk/portal/lorenzo.pellis.html>`__,
-  as well as other members of the supporting
-  `JUNIPER Consortium <https://maths.org/juniper/>`__.
-
 * Heather Riley, working on household inference for the `ONS COVID-19 Infection
   Survey
   <https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases/bulletins/coronaviruscovid19infectionsurveypilot/previousReleases>`__.
@@ -120,6 +111,16 @@ Postgraduate
 
 Former
 ------
+
+* `Francesca Scarabel <https://sites.google.com/view/scarabelfrancesca/home>`__, working
+  on models of epidemics with continuous representation of immune 
+  competence in collaboration with `Ian Hall
+  <https://www.research.manchester.ac.uk/portal/ian.hall.html>`__,
+  and `Lorenzo Pellis
+  <https://www.research.manchester.ac.uk/portal/lorenzo.pellis.html>`__,
+  as well as other members of the supporting
+  `JUNIPER Consortium <https://maths.org/juniper/>`__. Destination: Lectureship at
+  The University of Leeds.
 
 * `Jack McKenzie <https://www.linkedin.com/in/jackmack/>`__, working on recommender systems, PhD funded by `Autotrader
   <http://www.autotrader.co.uk/>`__,
