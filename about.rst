@@ -29,10 +29,10 @@ I am currently particularly interested in efficient statistical inference for
 these problems, complex data including networks and associated theory,
 numerical probability, inverse problems, and model simplification.
 
-Most of the support for COVID-19 work comes via the UKRI-funded `JUNIPER
+Much of the support for COVID-19 work came via the UKRI-funded `JUNIPER
 Consortium <https://maths.org/juniper/>`__.
 
-I am currently funded by the `Royal Society
+I was recently funded by the `Royal Society
 Industry
 <https://royalsociety.org/grants-schemes-awards/grants/industry-fellowship/>`__
 scheme `IBM Research

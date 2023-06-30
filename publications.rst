@@ -28,8 +28,8 @@ Peer-reviewed:
 100. M. E. P. Silva, R. E. Gaunt, L. Ospina-Forero, C. Jay, **T. House**,
 "Comparing directed networks via denoising graphlet distributions." Journal
 of Complex Networks **11**:2 (2023) cnad006.
-% https://doi.org/10.1093/comnet/cnad006 
-[arXiv:2207.09827]
+[`link <https://doi.org/10.1093/comnet/cnad006>`__\ ]
+[`arXiv:2207.09827 <https://arxiv.org/abs/2207.09827>`__\ ]
 
 99. P. S. Cunningham, G. Kitchen, C. Jackson, S. Papachristos,
 T. Springthorpe, D. van Dellen, J. Gibbs, T. Felton, A. Wilson,
@@ -37,70 +37,80 @@ J. Bannard-Smith, M. K. Rutter, **T. House**, P. Dark, T. Augustine,
 O. E. Akman, A. L. Hazel, J. F. Blaikley, "ClinCirc identifies alterations of
 the circadian peripheral oscillator in critical care patients." 
 Journal of Clinical Investigation **133**:4 (2023) e162775. 
-% https://doi.org/10.1172/JCI162775
+[`link <https://doi.org/10.1172/JCI162775>`__\ ]
 
 98. R. Das, M. Muldoon, M. Lunt, J. McBeth, B. B. Yimer, **T. House**,
 "Modelling and classifying joint trajectories of self-reported mood and pain
-in a large cohort study." PLOS Digital Health (2023) arXiv:2209.15553.
+in a large cohort study." PLOS Digital Health **2**:3 e0000204 (2023) 
+[`link <https://doi.org/10.1371/journal.pdig.0000204>`__\ ]
+[`arXiv:2209.15553 <https://arxiv.org/abs/2209.15553>`__\ ]
 
 97. L. Pellis, P. J. Birrell, J. Blake, C. E. Overton, F. Scarabel,
 H. B. Stage, E. Brooks-Pollock, L. Danon, I. Hall, **T. House**
-M. J. Keeling, J. M. Read, JUNIPER consortium, D.~De Angelis, "Estimation of
-reproduction numbers in real time: conceptual and statistical challenges." To
-appear in Journal of the Royal Statistical Society Series A.
-% https://rss.org.uk/news-publication/publications/journals/special-topic-meeting-on-r/
+M. J. Keeling, J. M. Read, JUNIPER consortium, D. De Angelis, "Estimation of
+reproduction numbers in real time: conceptual and statistical challenges."
+Journal of the Royal Statistical Society Series A **185**:Supplement_1
+(2022) S112-S130.
+[`link <https://doi.org/10.1111/rssa.12955>`__\ ]
 
-96. K.-D. Vihta, K. B. Pouwels, T. Peto, E. Pritchard, D. W.~Eyre,
+96. K.-D. Vihta, K. B. Pouwels, T. Peto, E. Pritchard, D. W. Eyre,
 **T. House**, O. Gethings, R. Studley, E. Rourke, D. Cook, I. Diamond,
 D. Crook, P. C. Matthews, N. Stoesser, A. S. Walker, the COVID-19 Infection
 Survey team, "Symptoms and SARS-CoV-2 positivity in the general population in
 the UK." Clinical Infectious Diseases **75**:1 (2022) e329–e337. 
 %medRxiv:2021.08.19.21262231.
-%https://doi.org/10.1093/cid/ciab945 
+[`link <https://doi.org/10.1093/cid/ciab945>`__\ ]
 
 95. K.-D. Vihta, K. B. Pouwels, T. E. A. Peto, E. Pritchard,
 **T. House**, R. Studley, E. Rourke, D. Cook, I. Diamond, D. Crook,
 P. C. Matthews, N. Stoesser, D. W. Eyre, A. S. Walker, "Omicron-associated
 changes in SARS-CoV-2 symptoms in the United Kingdom." Clinical Infectious
-Diseases (2022) ciac613. 
+Diseases **76**:3 (2022) e133–e141. 
+[`link <https://doi.org/10.1093/cid/ciac613>`__\ ]
 
 94. K. Wing, D. J. Grint, R. Mathur, H. Gibbs, G. Hickman, E. Nightingale,
 A. Schultze, H. Forbes, V. Nafilyan, K. Bhaskaran, E. Williamson,
 **T. House**, L. Pellis, E. Herrett, N. Gautam, H. J. Curtis,
 C. T. Rentsch, A. Wong, B. MacKenna, A. Mehrkar, S. Bacon, I. J. Douglas,
-S. Evans, L. Tomlinson, B. Goldacre, R. M. Eggo "Association between household
+S. Evans, L. Tomlinson, B. Goldacre, R. M. Eggo, "Association between household
 composition and severe COVID-19 outcomes in older people by ethnicity: an
 observational cohort study using the OpenSAFELY platform." International
-Journal of Epidemiology (2022) dyac158.
+Journal of Epidemiology **51**:6 (2022) 1745–1760.
+[`link <https://doi.org/10.1093/ije/dyac158>`__\ ]
 
 93. B. B. Yimer, D. M. Schultz, A. Beukenhorst, M. Lunt, H. L. Pisaniello,
 **T. House**; J. C. Sergeant, J. McBeth, W. G. Dixon, "Heterogeneity in
 the association between weather and pain severity among patients with chronic
 pain: a Bayesian multilevel regression analysis." PAIN Reports **7**:1
 (2022) e963. 
+[`link <https://doi.org/10.1097/PR9.0000000000000963>`__\ ]
 
 92. W. Waites, C. A. B. Pearson, K. M. Gaskell, **T. House**, L. Pellis,
 M. Johnson, V. Gould, A. Hunt, N. R. H. Stone, B. Kasstan, T. Chantler, S. Lal,
 C. H. Roberts, D. Goldblatt, M. Marks, R. M. Eggo, "Transmission dynamics of
 SARS-CoV-2 in a strictly-Orthodox Jewish community in the UK." Scientific
 Reports **12** (2022) 8550.
+[`link <https://doi.org/10.1038/s41598-022-12517-6>`__\ ]
 
 91. A. A. Koch, J. S. Bagnall, N. J. Smyllie, N. Begley, A. D. Adamson,
 J. L. Fribourgh, D. G. Spiller, Q.-J. Meng, C. L. Partch, K. Strimmer,
 **T. House**, M. H. Hastings, A. S. I. Loudon, "Quantification of protein
 abundance and interaction defines a mechanism for operation of the circadian
 clock." eLife **11** (2022) e73976.
+[`link <https://doi.org/10.7554/eLife.73976>`__\ ]
 
 90. C. E. Overton, L. Pellis, H. B. Stage, F. Scarabel, J. Burton, C. Fraser,
 I. Hall, **T. House**, C. Jewell, A. Nurtay, F. Pagani, K. A. Lythgoe,
 "EpiBeds: Data informed modelling of the COVID-19 hospital burden in
 England." PLOS Computational Biology **18**:9 (2022) e1010406.
+[`link <https://doi.org/10.1371/journal.pcbi.1010406>`__\ ]
 
 89. J. Hilton, H. Riley, L. Pellis, R. Aziza, S. P. C. Brand, I. K. Kombe,
 J. Ojal, A. Parisi, M. J. Keeling, D. J. Nokes, R Manson-Sawko,
 **T. House**, "A computational framework for modelling infectious disease
 policy based on age and household structure with applications to the COVID-19
 pandemic." PLOS Computational Biology **18**:9 (2022) e1010390.
+[`link <https://doi.org/10.1371/journal.pcbi.1010390>`__\ ]
 
 88. E. Pritchard, J. Jones, K. . Vihta, N. Stoesser, P. C. Matthews,
 D. W. Eyre, **T. House**, J. I. Bell, J. N. Newton, J. Farrar, D. Crook,
@@ -109,6 +119,7 @@ A. S. Walker, "Monitoring populations at increased risk for SARS-CoV-2
 infection in the community using population-level demographic and behavioural
 surveillance." The Lancet Regional Health - Europe **13** (2022)
 100282.
+[`link <https://doi.org/10.1016/j.lanepe.2021.100282>`__\ ]
 
 87. A. S. Walker, K. D. Vihta, O. Gethings, E. Pritchard, J. Jones,
 **T. House**, I. Bell, J. I. Bell, J. N. Newton, J. Farrar, I. Diamond,
@@ -116,16 +127,20 @@ R. Studley, E. Rourke, J. Hay, S. Hopkins, D. Crook, T. Peto, P. C. Matthews,
 D. W. Eyre, N. Stoesser, K. B. Pouwels, Covid-19 Infection Survey Team.
 "Tracking the Emergence of SARS-CoV-2 Alpha Variant in the United Kingdom."
 New England Journal of Medicine **385**:27 (2021) 2582-2585.
+[`link <https://www.nejm.org/doi/full/10.1056/NEJMc2103227>`__\ ]
 
 86. **T. House**, H. Riley, L. Pellis, K. B. Pouwels, S. Bacon,
 A. Eidukas, K. Jahanshahi, R. M. Eggo, A. S. Walker, "Inferring Risks of
 Coronavirus Transmission from Community Household Data." Statistical Methods
-in Medical Research **31**:9 (2022) 1738-1756. [arXiv:2104.04605]
+in Medical Research **31**:9 (2022) 1738-1756. 
+[`link <https://doi.org/10.1177/09622802211055853>`__\ ]
+[`arXiv:2104.04605 <https://arxiv.org/abs/2104.04605>`__\ ]
 
 85. L. Dyson, E. M. Hill, S. Moore, J. Curran-Sebastian, M. J. Tildesley,
 K. A. Lythgoe, **T. House**, L. Pellis, M. J. Keeling, "Possible future
 waves of SARS-CoV-2 infection generated by variants of concern with a range of
 characteristics." Nature Communications **12** (2021) 5730.
+[`link <https://doi.org/10.1038/s41467-021-25915-7>`__\ ]
 
 84. A. S. Walker, E. Pritchard, **T. House**, J. V. Robotham,
 P. J. Birrell, I. Bell, J. I. Bell, J. N. Newton, J. Farrar, I. Diamond,
