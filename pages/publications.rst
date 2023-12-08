@@ -25,9 +25,9 @@ the SIAM/ASA Journal on Uncertainty Quantification. [`arXiv:2301.07058
 Mobile Health Study: A Cluster Analysis." To appear in JMIR mHealth and
 uHealth.
 
-108. F. Pagani, A. Chevallier, S. Power, **T. House**, S. Cotter, "The
-NuZZ: Numerical ZigZag Sampling for General Models." To appear in Statistics
-and Computing. [`arXiv:2003.03636 <https://arxiv.org/abs/2003.03636>`__\ ] 
+108. F. Pagani, A. Chevallier, S. Power, **T. House**, S. Cotter, "NuZZ:
+Numerical ZigZag Sampling for General Models." To appear in Statistics and
+Computing. [`arXiv:2003.03636 <https://arxiv.org/abs/2003.03636>`__\ ] 
 
 107. H. R. Fryer, T. Golubchik, M. Hall, C. Fraser, R. Hinch, L. Ferretti, L.
 Thomson, A. Nurtay, L. Pellis, **T. House**, G. MacIntyre-Cockett, A. Trebes,

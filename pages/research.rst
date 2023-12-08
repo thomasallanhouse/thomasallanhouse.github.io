@@ -21,23 +21,23 @@ phenomena, but I also work on other things as shown in my `Publications <./publi
 The following are actually my profiles on different sites, as a way of using this
 site to validate my identity, updated with different levels of intensity.
 
-* `Google Scholar <https://scholar.google.com/citations?user=IIVEBa8AAAAJ>`__ .
+* `Google Scholar <https://scholar.google.com/citations?user=IIVEBa8AAAAJ>`__ 
 
-* `ORCiD <https://orcid.org/0000-0001-5835-8062>`__ .
+* `ORCiD <https://orcid.org/0000-0001-5835-8062>`__ 
 
-* `X (formerly Twitter) <https://twitter.com/TAH_Sci>`__ .
+* `X (formerly Twitter) <https://twitter.com/TAH_Sci>`__ 
 
-* `BlueSky <https://bsky.app/profile/tah-sci.bsky.social>`__ .
+* `BlueSky <https://bsky.app/profile/tah-sci.bsky.social>`__ 
 
-* `Threads <https://www.threads.net/@tah_sci_>`__ .
+* `Threads <https://www.threads.net/@tah_sci_>`__ 
 
-* `Mastodon <https://mas.to/@TAH_Sci>`__ .
+* `Mastodon <https://mas.to/@TAH_Sci>`__ 
 
-* `GitHub <https://github.com/thomasallanhouse>`__ .
+* `GitHub <https://github.com/thomasallanhouse>`__ 
 
-* `SourceForge <https://sourceforge.net/u/thouse/profile/>`__ (yes amusingly I have been doing this that long).
+* `SourceForge <https://sourceforge.net/u/thouse/profile/>`__ (yes amusingly I have been doing this that long)
 
-* `Substack <https://substack.com/@thomashouse>`__ .
+* `Substack <https://substack.com/@thomashouse>`__ 
 
-* `YouTube <https://www.youtube.com/channel/UCSUW2qWLCKlRGz1q6hA7qxA>`__ .
+* `YouTube <https://www.youtube.com/channel/UCSUW2qWLCKlRGz1q6hA7qxA>`__ 
 

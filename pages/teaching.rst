@@ -16,9 +16,9 @@
 Modules led
 -----------
 
-* Academic Year 2018--: MATH48061 and MATH68061, Multivariate Statistics.
+* Academic Year 2018-: MATH48061 and MATH68061, Multivariate Statistics.
 
-* Academic Year 2018--19: Statistics and Machine Learning for MSc in Data
+* Academic Year 2018-19: Statistics and Machine Learning for MSc in Data
   Science.
 
 * Academic Year 2017-18: MATH38061, MATH48061 and MATH68061, Multivariate
@@ -28,7 +28,7 @@ Modules led
 
 * Academic Year 2013-14: CO901 Networks, Self Organisation and Emergence.
 
-* Academic Years 2010--12: MA390: Topics in Mathematical Biology.
+* Academic Years 2010-12: MA390: Topics in Mathematical Biology.
 
 Other teaching (not comprehensive)
 ----------------------------------
