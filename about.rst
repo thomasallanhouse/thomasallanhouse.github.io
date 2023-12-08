@@ -40,16 +40,11 @@ scheme `IBM Research
 better use of modern computing architectures to solve complex inferential and
 modelling problems.  
 
-I am a Fellow of the `Alan Turing Institute <https://www.turing.ac.uk/>`__  and
+I was a Fellow of the `Alan Turing Institute <https://www.turing.ac.uk/>`__  and
 led the "Turing @ Manchester: Patient Subgroup Discovery" project.  I am also
 grateful for past and current funding from `EPSRC
 <https://www.epsrc.ac.uk/>`__. 
 
-I also support development of open-source software for epidemic modelling. My
-`GitHub is here <https://github.com/thomasallanhouse>`__, and amusingly enough
-I'm old enough to have a `SourceForge account
-<https://sourceforge.net/u/thouse/profile/>`__. Now there is a great initiative
-called `epirecipes <http://epirecip.es/>`__ that will hopefully pull together a
-lot of relevant software.
-
+I support development of open-source, modular software for epidemic modelling
+and in science more generally.
 
