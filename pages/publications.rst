@@ -12,18 +12,81 @@ try to make preprints available either here or on the arXiv; but if you
 can't get any of the papers below and would like to, please email me and
 I'll send you a preprint.
 
-Selected Preprints (Submitted):
--------------------------------
-
-F. Pagani, S. Cotter, **T. House**, "The NuZZ: Numerical ZigZag Sampling for
-General Models." [`arXiv:2003.03636 <https://arxiv.org/abs/2003.03636>`__\ ]
-
-T. M. Kinyanjui and **T. House**, "Generalised Linear Models for Dependent
-Binary Outcomes with Applications to Household Stratified Pandemic Influenza
-Data." [`arXiv:1911.12115 <https://arxiv.org/abs/1911.12115>`__\ ]
-
 Peer-reviewed:
 --------------
+
+110. J. Curran-Sebastian, L. Pellis, I. Hall, **T. House**, "Calculation of
+Epidemic First Passage and Peak Time Probability Distributions." To appear in
+the SIAM/ASA Journal on Uncertainty Quantification. [`arXiv:2301.07058
+<https://arxiv.org/abs/2301.07058>`__\ ] 
+
+109. C. L. Little, D. M. Schultz, **T. House**, W. G. Dixon, J. McBeth,
+"Identifying Weekly Trajectories of Pain Severity Using Daily Data from a
+Mobile Health Study: A Cluster Analysis." To appear in JMIR mHealth and
+uHealth.
+
+108. F. Pagani, A. Chevallier, S. Power, **T. House**, S. Cotter, "The
+NuZZ: Numerical ZigZag Sampling for General Models." To appear in Statistics
+and Computing. [`arXiv:2003.03636 <https://arxiv.org/abs/2003.03636>`__\ ] 
+
+107. H. R. Fryer, T. Golubchik, M. Hall, C. Fraser, R. Hinch, L. Ferretti, L.
+Thomson, A. Nurtay, L. Pellis, **T. House**, G. MacIntyre-Cockett, A. Trebes,
+D. Buck, P. Piazza, A. Green, L. J. Lonie, D. Smith, M. Bashton, M. Crown, A.
+Nelson, C. M. McCann, M. A. Tariq, C. J. Elstob, R. N. Dos Santos, Z. Richards,
+X. Xhang, J. Hawley, M. R. Lee, P. Carrillo-Barragan, I. Chapman, S.
+Harthern-Flint, The COVID-19 Genomics UK (COG-UK) consortium, D. Bonsall, K. A.
+Lythgoe, "Viral burden is associated with age, vaccination, and viral variant
+in a population-representative study of SARS-CoV-2 that accounts for
+time-since-infection-related sampling bias." PLOS Pathogens **19**:8 (2023)
+e1011461. [`link
+<https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1011461>`__\
+]
+
+106. M. Fyles, K.-D. Vihta, C. H. Sudre, H. Long, R. Das, C. Jay, T. Wingfield,
+F. Cumming, W. Green, P. Hadjipantelis, J. Kirk, C. J. Steves, S. Ourselin, G.
+Medley, E. Fearon, **T. House**, "Diversity of symptom phenotypes in SARS-CoV-2
+community infections observed in multiple large datasets." To appear in
+Scientific Reports.  Scientific Reports **13** (2023) 21705.  [`link
+<https://www.nature.com/articles/s41598-023-47488-9>`__\ ] [`arXiv:2111.05728
+<https://arxiv.org/abs/2111.05728>`__\ ] 
+
+105. K. A. Lythgoe, T. Golubchik, M. Hall, **T. House**, R. Cahuantzi, G.
+MacIntyre-Cockett, H. Fryer, L. Thomson, A. Nurtay, M. Ghafani, D. Buck, A.
+Green, A. Trebes, P. Piazza, L. J. Lonie, R. Studley, E. Rourke, D. Cook, D.
+Smith, M. Bashton, A. Nelson, M. Crown, C. McCann, G. R. Young, R. A. N. dos
+Santos, Z. Richards, A. Tariq, C. Fraser, I. Diamond, J. Barrett, A. S. Walker,
+D. Bonsall, Wellcome Sanger Institute COVID-19 Surveillance Team, "Lineage
+replacement and evolution captured by 3 years of the United Kingdom Coronavirus
+(COVID-19) Infection Survey." Proceedings of the Royal Society B **290** (2023)
+2009:20231284.  [`link <https://doi.org/10.1098/rspb.2023.1284>`__\ ]
+[`medRxiv:2022.01.05.21268323
+<https://www.medrxiv.org/content/10.1101/2022.01.05.21268323v1>`__\ ] 
+
+104. C. L. Little, K. L. Druce, W. G. Dixon, D. M. Schultz, **T. House**, J.
+McBeth, "What do people living with chronic pain want from a pain forecast?  A
+research prioritization study." PLOS ONE **18** (2023) 10:e0292968.  [`link
+<https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0292968>`__\
+]
+
+103. M. E. P. Silva, R. Skeva, **T. House**, C. Jay, "Tracking the Structure
+and Sentiment of Vaccination Discussions on Mumsnet," Social Network Analysis
+and Mining {\bf 13} (2023) 152.  [`link
+<https://doi.org/10.1007/s13278-023-01155-z>`__\ ] [`arXiv:2308.13014
+<https://arxiv.org/abs/2308.13014>`__\ ] 
+
+102. M. E. P Silva, M. Fyles, L. Pi, J. Panovska-Griffiths, C. Jay, **T.
+House**, E. Fearon, "The role of regular asymptomatic testing in reducing the
+impact of a COVID-19 wave." Epidemics **44** (2023) 100699.  [`link
+<https://www.sciencedirect.com/science/article/pii/S175543652300035X>`__\ ]
+[`arXiv:2207.08495 <https://arxiv.org/abs/2207.08495>`__\ ] 
+
+101. S. P. C. Brand, M. P. C. Cavallaro, F. Cumming, C. Turner, I. Florence, P.
+Blomquist, J. Hilton, L. M. Guzman Rincon, **T. House**, D. J. Nokes, M. J.
+Keeling, "The role of vaccination and public awareness in medium-term forecasts
+of Mpox incidence in the United Kingdom." Nature Communications **14** (2023)
+4100. [`link <https://www.nature.com/articles/s41467-023-38816-8>`__\ ].
+Preprint (Version 1) available at `Research Square
+<https://doi.org/10.21203/rs.3.rs-2162921/v1>`__\ .
 
 100. M. E. P. Silva, R. E. Gaunt, L. Ospina-Forero, C. Jay, **T. House**,
 "Comparing directed networks via denoising graphlet distributions." Journal
