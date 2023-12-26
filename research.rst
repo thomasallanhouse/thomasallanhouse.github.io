@@ -16,7 +16,7 @@ combine to determine the risk that any of us might become ill, however if we
 could disentangle these from each other then it might be possible to target the
 most important factors systematically. My work is mainly on the mathematical,
 statistical and computational methods that we need to understand these
-phenomena, but I also work on other things as shown in my `Publications <./publications.html>`.
+phenomena, but I also work on other things as shown in my `Publications <./publications.html>`__.
 
 The following are actually my profiles on different sites, as a way of using this
 site to validate my identity, updated with different levels of intensity.

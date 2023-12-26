@@ -70,7 +70,7 @@ research prioritization study." PLOS ONE **18** (2023) 10:e0292968.  [`link
 
 103. M. E. P. Silva, R. Skeva, **T. House**, C. Jay, "Tracking the Structure
 and Sentiment of Vaccination Discussions on Mumsnet," Social Network Analysis
-and Mining {\bf 13} (2023) 152.  [`link
+and Mining **13** (2023) 152.  [`link
 <https://doi.org/10.1007/s13278-023-01155-z>`__\ ] [`arXiv:2308.13014
 <https://arxiv.org/abs/2308.13014>`__\ ] 
 
@@ -121,8 +121,8 @@ Journal of the Royal Statistical Society Series A **185**:Supplement_1
 D. Crook, P. C. Matthews, N. Stoesser, A. S. Walker, the COVID-19 Infection
 Survey team, "Symptoms and SARS-CoV-2 positivity in the general population in
 the UK." Clinical Infectious Diseases **75**:1 (2022) e329–e337. 
-%medRxiv:2021.08.19.21262231.
 [`link <https://doi.org/10.1093/cid/ciab945>`__\ ]
+[`medRxiv:2021.08.19.21262231. <https://www.medrxiv.org/content/10.1101/2021.08.19.21262231v1>`__\ ]
 
 95. K.-D. Vihta, K. B. Pouwels, T. E. A. Peto, E. Pritchard,
 **T. House**, R. Studley, E. Rourke, D. Cook, I. Diamond, D. Crook,
