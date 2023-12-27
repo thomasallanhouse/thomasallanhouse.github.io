@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thomas House's Personal Website</title><link>https://personalpages.manchester.ac.uk/staff/thomas.house/</link><description>Thomas House's Personal Website</description><atom:link href="https://personalpages.manchester.ac.uk/staff/thomas.house/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2023 &lt;a href="mailto:thomas.house@manchester.ac.uk"&gt;Thomas House&lt;/a&gt; </copyright><lastBuildDate>Wed, 27 Dec 2023 20:43:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Seasonality and Immunity</title><link>https://personalpages.manchester.ac.uk/staff/thomas.house/posts/seasonality-and-immunity.html</link><dc:creator>Thomas House</dc:creator><description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This blogpost was conceptualised in August 2021, and should be public
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thomas House's Personal Website</title><link>https://personalpages.manchester.ac.uk/staff/thomas.house/</link><description>Thomas House's Personal Website</description><atom:link href="https://personalpages.manchester.ac.uk/staff/thomas.house/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2023 &lt;a href="mailto:thomas.house@manchester.ac.uk"&gt;Thomas House&lt;/a&gt; </copyright><lastBuildDate>Wed, 27 Dec 2023 20:54:22 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Seasonality and Immunity</title><link>https://personalpages.manchester.ac.uk/staff/thomas.house/posts/seasonality-and-immunity.html</link><dc:creator>Thomas House</dc:creator><description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This blogpost was conceptualised in August 2021, and should be public
 early in 2024. My attempts to do long-form outreach were somewhat put on hold
 by work around the COVID pandemic. Anyway, with the problems going on at 𝕏
 (formerly Twitter), it's struck me that putting any such content on a website
@@ -25,7 +25,7 @@ position so that &lt;span class="raw-html"&gt;\(a = \ddot{z}\)&lt;/span&gt; and 
 contributions above we get &lt;span class="raw-html"&gt;\[-kz - \nu \dot{z} + \varphi(t) = m
 \ddot{z}\, .\]&lt;/span&gt; Dredging still further, we might remember that momentum is
 &lt;span class="raw-html"&gt;\(p = m\dot{z}\)&lt;/span&gt;, which gives us dynamics &lt;span class="raw-html"&gt;\[\dot{z} =
-\frac{1}{m} p \, , \qquad \dot{p} = -kz - \frac{\nu}{m} p + \varphi(t) =\, .
+\frac{1}{m} p \, , \qquad \dot{p} = -kz - \frac{\nu}{m} p + \varphi(t) \, .
 \qquad \mathrm{(1)} \]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Next, let us consider an SIRS model with forcing, &lt;span class="raw-html"&gt;\[\dot{S} = \omega
 R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
@@ -40,35 +40,45 @@ that I make available on GitHub.&lt;/p&gt;
 &lt;p&gt;This set of equations does not have a general closed form, but we can look for
 an approximate one using the Ansatz &lt;span class="raw-html"&gt;\[S(t) = S_* + \epsilon x(t) \,
 , \quad\ I(t) = I_* + \epsilon y(t) \, , \quad R(t) = N - S(t) - I(t) \, ,
-\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]&lt;/span&gt;. We want this to correspond
+\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]&lt;/span&gt; We want this to correspond
 to a fixed point of the dynamical system when &lt;span class="raw-html"&gt;\(\epsilon = 0\)&lt;/span&gt;,
 leading to the equations &lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_*
-I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt; These have a
-solution when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go
-endemic (which happens when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/\gamma &amp;gt; 1
-\)&lt;/span&gt;; otherwise we have the interesting result that &lt;span class="raw-html"&gt;\(I_* = 1 -
-(1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog about later. The expression for the
-expected number of susceptibles &lt;span class="raw-html"&gt;\(S_*\)&lt;/span&gt; at endemicity is more
-complex; feel free to derive it for fun!  For our purposes here, we are
-interested in what we obtain at first order in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;, which
-gives us &lt;span class="raw-html"&gt;\[\dot{x} = - \omega x - \omega y - \beta_* x I_* - \beta_*
-S_* y - \phi S_* I_* + \mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_*
-x I_* + \beta_* S_* y + \phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .
-\qquad \mathrm{(2)} \]&lt;/span&gt;&lt;/p&gt;
+I_* \, , \qquad\ 0 = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt; These have a solution
+when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go endemic,
+i.e. when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/\gamma &amp;gt; 1 \)&lt;/span&gt;; the other fixed
+point is when &lt;span class="raw-html"&gt;\(I_* = 1 - (1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog
+about later. The expression for the expected number of susceptibles
+&lt;span class="raw-html"&gt;\(S_*\)&lt;/span&gt; at endemicity is more complex; feel free to derive it for
+fun!  For our purposes here, we are interested in what we obtain at first order
+in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;, which gives us &lt;span class="raw-html"&gt;\[\dot{x} = - \omega x -
+\omega y - \beta_* x I_* - \beta_* S_* y - \phi S_* I_* +
+\mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_* x I_* + \beta_* S_* y +
+\phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .  \qquad \mathrm{(2)}
+\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;OK, so take a breath. Now, with a bit of work, we can write both equations (1)
 and (2) (neglecting quadratic terms in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;) above in the
 form of a two-dimensional vector differential equation
 &lt;span class="raw-html"&gt;\[\dot{\mathbf{v}} = \boldsymbol{J} \mathbf{v} + \mathbf{F}(t) \, ,
 \qquad \mathrm{(3)} \]&lt;/span&gt; where &lt;span class="raw-html"&gt;\(\mathbf{v}\)&lt;/span&gt; is a vector containing
-the dynamical variables, &lt;span class="raw-html"&gt;\(\boldsymbol{J}\)&lt;/span&gt; is a matrix depending
-on rate constants, and &lt;span class="raw-html"&gt;\(\mathbf{F}(t)\)&lt;/span&gt; is a vector function of
-time. The eagle-eyed will note that these are not quite the same, but also that
+the dynamical variables -- &lt;span class="raw-html"&gt;\((z,p)\)&lt;/span&gt; for the spring and
+&lt;span class="raw-html"&gt;\((x,y)\)&lt;/span&gt; for the SIRS model -- &lt;span class="raw-html"&gt;\(\boldsymbol{J}\)&lt;/span&gt; is a
+matrix depending on rate constants, and &lt;span class="raw-html"&gt;\(\mathbf{F}(t)\)&lt;/span&gt; is a
+vector function of time. The eagle-eyed will note that the details of the
+versions of (3) derived from (1) and (2) are not quite the same, but also that
 equation (3) takes the same structure under the linear transformation
 &lt;span class="raw-html"&gt;\[\tilde{\mathbf{v}} = \boldsymbol{T} \mathbf{v} \, ,\quad
-\tilde{\boldsymbol{J}} = \boldsymbol{J}\boldsymbol{J}\boldsymbol{T}^{-1} \,
-,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level mathematics). But
-the TL;DR is this: imagine&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+\tilde{\boldsymbol{J}} = \boldsymbol{T}\boldsymbol{J}\boldsymbol{T}^{-1} \,
+,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]&lt;/span&gt; They might also
+have fun trying to work with (3) via matrix integrating factor, Eigensystem
+analysis, or maybe Fourier transform.&lt;/p&gt;
+&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level
+mathematics apart from the last bit). But the TL;DR is this: imagine all the
+complexity that you can generate by bouncing a weight up and down. If your taps
+line up just right with the how the spring behaves, you can get regular
+oscillations, but it's not difficult to make the weight jump irregularly all
+over the place. And this is exactly what we can see with an endemic disease:
+there's no guarantee that oscillatory behaviour will be regular or predictable.&lt;/p&gt;
+&lt;p&gt;Now, for many diseases that are&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 
 &lt;img alt="Spring being pushed, with displacement z from equilibrium" class="align-right" src="https://personalpages.manchester.ac.uk/staff/thomas.house/spring.jpg" style="width: 240px;"&gt;
 &lt;p&gt;So let's start by considering a weight on a spring as pictured - this is going
@@ -90,7 +100,7 @@ position so that &lt;span class="raw-html"&gt;\(a = \ddot{z}\)&lt;/span&gt; and 
 contributions above we get &lt;span class="raw-html"&gt;\[-kz - \nu \dot{z} + \varphi(t) = m
 \ddot{z}\, .\]&lt;/span&gt; Dredging still further, we might remember that momentum is
 &lt;span class="raw-html"&gt;\(p = m\dot{z}\)&lt;/span&gt;, which gives us dynamics &lt;span class="raw-html"&gt;\[\dot{z} =
-\frac{1}{m} p \, , \qquad \dot{p} = -kz - \frac{\nu}{m} p + \varphi(t) =\, .
+\frac{1}{m} p \, , \qquad \dot{p} = -kz - \frac{\nu}{m} p + \varphi(t) \, .
 \qquad \mathrm{(1)} \]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Next, let us consider an SIRS model with forcing, &lt;span class="raw-html"&gt;\[\dot{S} = \omega
 R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
@@ -105,35 +115,45 @@ that I make available on GitHub.&lt;/p&gt;
 &lt;p&gt;This set of equations does not have a general closed form, but we can look for
 an approximate one using the Ansatz &lt;span class="raw-html"&gt;\[S(t) = S_* + \epsilon x(t) \,
 , \quad\ I(t) = I_* + \epsilon y(t) \, , \quad R(t) = N - S(t) - I(t) \, ,
-\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]&lt;/span&gt;. We want this to correspond
+\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]&lt;/span&gt; We want this to correspond
 to a fixed point of the dynamical system when &lt;span class="raw-html"&gt;\(\epsilon = 0\)&lt;/span&gt;,
 leading to the equations &lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_*
-I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt; These have a
-solution when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go
-endemic (which happens when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/\gamma &amp;gt; 1
-\)&lt;/span&gt;; otherwise we have the interesting result that &lt;span class="raw-html"&gt;\(I_* = 1 -
-(1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog about later. The expression for the
-expected number of susceptibles &lt;span class="raw-html"&gt;\(S_*\)&lt;/span&gt; at endemicity is more
-complex; feel free to derive it for fun!  For our purposes here, we are
-interested in what we obtain at first order in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;, which
-gives us &lt;span class="raw-html"&gt;\[\dot{x} = - \omega x - \omega y - \beta_* x I_* - \beta_*
-S_* y - \phi S_* I_* + \mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_*
-x I_* + \beta_* S_* y + \phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .
-\qquad \mathrm{(2)} \]&lt;/span&gt;&lt;/p&gt;
+I_* \, , \qquad\ 0 = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt; These have a solution
+when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go endemic,
+i.e. when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/\gamma &amp;gt; 1 \)&lt;/span&gt;; the other fixed
+point is when &lt;span class="raw-html"&gt;\(I_* = 1 - (1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog
+about later. The expression for the expected number of susceptibles
+&lt;span class="raw-html"&gt;\(S_*\)&lt;/span&gt; at endemicity is more complex; feel free to derive it for
+fun!  For our purposes here, we are interested in what we obtain at first order
+in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;, which gives us &lt;span class="raw-html"&gt;\[\dot{x} = - \omega x -
+\omega y - \beta_* x I_* - \beta_* S_* y - \phi S_* I_* +
+\mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_* x I_* + \beta_* S_* y +
+\phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .  \qquad \mathrm{(2)}
+\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;OK, so take a breath. Now, with a bit of work, we can write both equations (1)
 and (2) (neglecting quadratic terms in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;) above in the
 form of a two-dimensional vector differential equation
 &lt;span class="raw-html"&gt;\[\dot{\mathbf{v}} = \boldsymbol{J} \mathbf{v} + \mathbf{F}(t) \, ,
 \qquad \mathrm{(3)} \]&lt;/span&gt; where &lt;span class="raw-html"&gt;\(\mathbf{v}\)&lt;/span&gt; is a vector containing
-the dynamical variables, &lt;span class="raw-html"&gt;\(\boldsymbol{J}\)&lt;/span&gt; is a matrix depending
-on rate constants, and &lt;span class="raw-html"&gt;\(\mathbf{F}(t)\)&lt;/span&gt; is a vector function of
-time. The eagle-eyed will note that these are not quite the same, but also that
+the dynamical variables -- &lt;span class="raw-html"&gt;\((z,p)\)&lt;/span&gt; for the spring and
+&lt;span class="raw-html"&gt;\((x,y)\)&lt;/span&gt; for the SIRS model -- &lt;span class="raw-html"&gt;\(\boldsymbol{J}\)&lt;/span&gt; is a
+matrix depending on rate constants, and &lt;span class="raw-html"&gt;\(\mathbf{F}(t)\)&lt;/span&gt; is a
+vector function of time. The eagle-eyed will note that the details of the
+versions of (3) derived from (1) and (2) are not quite the same, but also that
 equation (3) takes the same structure under the linear transformation
 &lt;span class="raw-html"&gt;\[\tilde{\mathbf{v}} = \boldsymbol{T} \mathbf{v} \, ,\quad
-\tilde{\boldsymbol{J}} = \boldsymbol{J}\boldsymbol{J}\boldsymbol{T}^{-1} \,
-,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level mathematics). But
-the TL;DR is this: imagine&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+\tilde{\boldsymbol{J}} = \boldsymbol{T}\boldsymbol{J}\boldsymbol{T}^{-1} \,
+,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]&lt;/span&gt; They might also
+have fun trying to work with (3) via matrix integrating factor, Eigensystem
+analysis, or maybe Fourier transform.&lt;/p&gt;
+&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level
+mathematics apart from the last bit). But the TL;DR is this: imagine all the
+complexity that you can generate by bouncing a weight up and down. If your taps
+line up just right with the how the spring behaves, you can get regular
+oscillations, but it's not difficult to make the weight jump irregularly all
+over the place. And this is exactly what we can see with an endemic disease:
+there's no guarantee that oscillatory behaviour will be regular or predictable.&lt;/p&gt;
+&lt;p&gt;Now, for many diseases that are&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;p&gt;The spring pulls it towards equilibrium, to a first approximation,
@@ -150,7 +170,7 @@ position so that &lt;span class="raw-html"&gt;\(a = \ddot{z}\)&lt;/span&gt; and 
 contributions above we get &lt;span class="raw-html"&gt;\[-kz - \nu \dot{z} + \varphi(t) = m
 \ddot{z}\, .\]&lt;/span&gt; Dredging still further, we might remember that momentum is
 &lt;span class="raw-html"&gt;\(p = m\dot{z}\)&lt;/span&gt;, which gives us dynamics &lt;span class="raw-html"&gt;\[\dot{z} =
-\frac{1}{m} p \, , \qquad \dot{p} = -kz - \frac{\nu}{m} p + \varphi(t) =\, .
+\frac{1}{m} p \, , \qquad \dot{p} = -kz - \frac{\nu}{m} p + \varphi(t) \, .
 \qquad \mathrm{(1)} \]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Next, let us consider an SIRS model with forcing, &lt;span class="raw-html"&gt;\[\dot{S} = \omega
 R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
@@ -165,35 +185,45 @@ that I make available on GitHub.&lt;/p&gt;
 &lt;p&gt;This set of equations does not have a general closed form, but we can look for
 an approximate one using the Ansatz &lt;span class="raw-html"&gt;\[S(t) = S_* + \epsilon x(t) \,
 , \quad\ I(t) = I_* + \epsilon y(t) \, , \quad R(t) = N - S(t) - I(t) \, ,
-\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]&lt;/span&gt;. We want this to correspond
+\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]&lt;/span&gt; We want this to correspond
 to a fixed point of the dynamical system when &lt;span class="raw-html"&gt;\(\epsilon = 0\)&lt;/span&gt;,
 leading to the equations &lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_*
-I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt; These have a
-solution when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go
-endemic (which happens when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/\gamma &amp;gt; 1
-\)&lt;/span&gt;; otherwise we have the interesting result that &lt;span class="raw-html"&gt;\(I_* = 1 -
-(1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog about later. The expression for the
-expected number of susceptibles &lt;span class="raw-html"&gt;\(S_*\)&lt;/span&gt; at endemicity is more
-complex; feel free to derive it for fun!  For our purposes here, we are
-interested in what we obtain at first order in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;, which
-gives us &lt;span class="raw-html"&gt;\[\dot{x} = - \omega x - \omega y - \beta_* x I_* - \beta_*
-S_* y - \phi S_* I_* + \mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_*
-x I_* + \beta_* S_* y + \phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .
-\qquad \mathrm{(2)} \]&lt;/span&gt;&lt;/p&gt;
+I_* \, , \qquad\ 0 = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt; These have a solution
+when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go endemic,
+i.e. when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/\gamma &amp;gt; 1 \)&lt;/span&gt;; the other fixed
+point is when &lt;span class="raw-html"&gt;\(I_* = 1 - (1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog
+about later. The expression for the expected number of susceptibles
+&lt;span class="raw-html"&gt;\(S_*\)&lt;/span&gt; at endemicity is more complex; feel free to derive it for
+fun!  For our purposes here, we are interested in what we obtain at first order
+in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;, which gives us &lt;span class="raw-html"&gt;\[\dot{x} = - \omega x -
+\omega y - \beta_* x I_* - \beta_* S_* y - \phi S_* I_* +
+\mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_* x I_* + \beta_* S_* y +
+\phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .  \qquad \mathrm{(2)}
+\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;OK, so take a breath. Now, with a bit of work, we can write both equations (1)
 and (2) (neglecting quadratic terms in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;) above in the
 form of a two-dimensional vector differential equation
 &lt;span class="raw-html"&gt;\[\dot{\mathbf{v}} = \boldsymbol{J} \mathbf{v} + \mathbf{F}(t) \, ,
 \qquad \mathrm{(3)} \]&lt;/span&gt; where &lt;span class="raw-html"&gt;\(\mathbf{v}\)&lt;/span&gt; is a vector containing
-the dynamical variables, &lt;span class="raw-html"&gt;\(\boldsymbol{J}\)&lt;/span&gt; is a matrix depending
-on rate constants, and &lt;span class="raw-html"&gt;\(\mathbf{F}(t)\)&lt;/span&gt; is a vector function of
-time. The eagle-eyed will note that these are not quite the same, but also that
+the dynamical variables -- &lt;span class="raw-html"&gt;\((z,p)\)&lt;/span&gt; for the spring and
+&lt;span class="raw-html"&gt;\((x,y)\)&lt;/span&gt; for the SIRS model -- &lt;span class="raw-html"&gt;\(\boldsymbol{J}\)&lt;/span&gt; is a
+matrix depending on rate constants, and &lt;span class="raw-html"&gt;\(\mathbf{F}(t)\)&lt;/span&gt; is a
+vector function of time. The eagle-eyed will note that the details of the
+versions of (3) derived from (1) and (2) are not quite the same, but also that
 equation (3) takes the same structure under the linear transformation
 &lt;span class="raw-html"&gt;\[\tilde{\mathbf{v}} = \boldsymbol{T} \mathbf{v} \, ,\quad
-\tilde{\boldsymbol{J}} = \boldsymbol{J}\boldsymbol{J}\boldsymbol{T}^{-1} \,
-,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level mathematics). But
-the TL;DR is this: imagine&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+\tilde{\boldsymbol{J}} = \boldsymbol{T}\boldsymbol{J}\boldsymbol{T}^{-1} \,
+,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]&lt;/span&gt; They might also
+have fun trying to work with (3) via matrix integrating factor, Eigensystem
+analysis, or maybe Fourier transform.&lt;/p&gt;
+&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level
+mathematics apart from the last bit). But the TL;DR is this: imagine all the
+complexity that you can generate by bouncing a weight up and down. If your taps
+line up just right with the how the spring behaves, you can get regular
+oscillations, but it's not difficult to make the weight jump irregularly all
+over the place. And this is exactly what we can see with an endemic disease:
+there's no guarantee that oscillatory behaviour will be regular or predictable.&lt;/p&gt;
+&lt;p&gt;Now, for many diseases that are&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 
 &lt;p&gt;Now, dredging up our high-school physics we remember that Newton's equation is
 &lt;span class="raw-html"&gt;\(F = ma\)&lt;/span&gt;. Noting that acceleration is the second derivative of
@@ -201,7 +231,7 @@ position so that &lt;span class="raw-html"&gt;\(a = \ddot{z}\)&lt;/span&gt; and 
 contributions above we get &lt;span class="raw-html"&gt;\[-kz - \nu \dot{z} + \varphi(t) = m
 \ddot{z}\, .\]&lt;/span&gt; Dredging still further, we might remember that momentum is
 &lt;span class="raw-html"&gt;\(p = m\dot{z}\)&lt;/span&gt;, which gives us dynamics &lt;span class="raw-html"&gt;\[\dot{z} =
-\frac{1}{m} p \, , \qquad \dot{p} = -kz - \frac{\nu}{m} p + \varphi(t) =\, .
+\frac{1}{m} p \, , \qquad \dot{p} = -kz - \frac{\nu}{m} p + \varphi(t) \, .
 \qquad \mathrm{(1)} \]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Next, let us consider an SIRS model with forcing, &lt;span class="raw-html"&gt;\[\dot{S} = \omega
 R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
@@ -216,35 +246,45 @@ that I make available on GitHub.&lt;/p&gt;
 &lt;p&gt;This set of equations does not have a general closed form, but we can look for
 an approximate one using the Ansatz &lt;span class="raw-html"&gt;\[S(t) = S_* + \epsilon x(t) \,
 , \quad\ I(t) = I_* + \epsilon y(t) \, , \quad R(t) = N - S(t) - I(t) \, ,
-\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]&lt;/span&gt;. We want this to correspond
+\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]&lt;/span&gt; We want this to correspond
 to a fixed point of the dynamical system when &lt;span class="raw-html"&gt;\(\epsilon = 0\)&lt;/span&gt;,
 leading to the equations &lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_*
-I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt; These have a
-solution when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go
-endemic (which happens when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/\gamma &amp;gt; 1
-\)&lt;/span&gt;; otherwise we have the interesting result that &lt;span class="raw-html"&gt;\(I_* = 1 -
-(1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog about later. The expression for the
-expected number of susceptibles &lt;span class="raw-html"&gt;\(S_*\)&lt;/span&gt; at endemicity is more
-complex; feel free to derive it for fun!  For our purposes here, we are
-interested in what we obtain at first order in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;, which
-gives us &lt;span class="raw-html"&gt;\[\dot{x} = - \omega x - \omega y - \beta_* x I_* - \beta_*
-S_* y - \phi S_* I_* + \mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_*
-x I_* + \beta_* S_* y + \phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .
-\qquad \mathrm{(2)} \]&lt;/span&gt;&lt;/p&gt;
+I_* \, , \qquad\ 0 = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt; These have a solution
+when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go endemic,
+i.e. when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/\gamma &amp;gt; 1 \)&lt;/span&gt;; the other fixed
+point is when &lt;span class="raw-html"&gt;\(I_* = 1 - (1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog
+about later. The expression for the expected number of susceptibles
+&lt;span class="raw-html"&gt;\(S_*\)&lt;/span&gt; at endemicity is more complex; feel free to derive it for
+fun!  For our purposes here, we are interested in what we obtain at first order
+in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;, which gives us &lt;span class="raw-html"&gt;\[\dot{x} = - \omega x -
+\omega y - \beta_* x I_* - \beta_* S_* y - \phi S_* I_* +
+\mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_* x I_* + \beta_* S_* y +
+\phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .  \qquad \mathrm{(2)}
+\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;OK, so take a breath. Now, with a bit of work, we can write both equations (1)
 and (2) (neglecting quadratic terms in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;) above in the
 form of a two-dimensional vector differential equation
 &lt;span class="raw-html"&gt;\[\dot{\mathbf{v}} = \boldsymbol{J} \mathbf{v} + \mathbf{F}(t) \, ,
 \qquad \mathrm{(3)} \]&lt;/span&gt; where &lt;span class="raw-html"&gt;\(\mathbf{v}\)&lt;/span&gt; is a vector containing
-the dynamical variables, &lt;span class="raw-html"&gt;\(\boldsymbol{J}\)&lt;/span&gt; is a matrix depending
-on rate constants, and &lt;span class="raw-html"&gt;\(\mathbf{F}(t)\)&lt;/span&gt; is a vector function of
-time. The eagle-eyed will note that these are not quite the same, but also that
+the dynamical variables -- &lt;span class="raw-html"&gt;\((z,p)\)&lt;/span&gt; for the spring and
+&lt;span class="raw-html"&gt;\((x,y)\)&lt;/span&gt; for the SIRS model -- &lt;span class="raw-html"&gt;\(\boldsymbol{J}\)&lt;/span&gt; is a
+matrix depending on rate constants, and &lt;span class="raw-html"&gt;\(\mathbf{F}(t)\)&lt;/span&gt; is a
+vector function of time. The eagle-eyed will note that the details of the
+versions of (3) derived from (1) and (2) are not quite the same, but also that
 equation (3) takes the same structure under the linear transformation
 &lt;span class="raw-html"&gt;\[\tilde{\mathbf{v}} = \boldsymbol{T} \mathbf{v} \, ,\quad
-\tilde{\boldsymbol{J}} = \boldsymbol{J}\boldsymbol{J}\boldsymbol{T}^{-1} \,
-,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level mathematics). But
-the TL;DR is this: imagine&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+\tilde{\boldsymbol{J}} = \boldsymbol{T}\boldsymbol{J}\boldsymbol{T}^{-1} \,
+,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]&lt;/span&gt; They might also
+have fun trying to work with (3) via matrix integrating factor, Eigensystem
+analysis, or maybe Fourier transform.&lt;/p&gt;
+&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level
+mathematics apart from the last bit). But the TL;DR is this: imagine all the
+complexity that you can generate by bouncing a weight up and down. If your taps
+line up just right with the how the spring behaves, you can get regular
+oscillations, but it's not difficult to make the weight jump irregularly all
+over the place. And this is exactly what we can see with an endemic disease:
+there's no guarantee that oscillatory behaviour will be regular or predictable.&lt;/p&gt;
+&lt;p&gt;Now, for many diseases that are&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 
 &lt;p&gt;Next, let us consider an SIRS model with forcing, &lt;span class="raw-html"&gt;\[\dot{S} = \omega
 R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
@@ -259,86 +299,124 @@ that I make available on GitHub.&lt;/p&gt;
 &lt;p&gt;This set of equations does not have a general closed form, but we can look for
 an approximate one using the Ansatz &lt;span class="raw-html"&gt;\[S(t) = S_* + \epsilon x(t) \,
 , \quad\ I(t) = I_* + \epsilon y(t) \, , \quad R(t) = N - S(t) - I(t) \, ,
-\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]&lt;/span&gt;. We want this to correspond
+\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]&lt;/span&gt; We want this to correspond
 to a fixed point of the dynamical system when &lt;span class="raw-html"&gt;\(\epsilon = 0\)&lt;/span&gt;,
 leading to the equations &lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_*
-I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt; These have a
-solution when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go
-endemic (which happens when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/\gamma &amp;gt; 1
-\)&lt;/span&gt;; otherwise we have the interesting result that &lt;span class="raw-html"&gt;\(I_* = 1 -
-(1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog about later. The expression for the
-expected number of susceptibles &lt;span class="raw-html"&gt;\(S_*\)&lt;/span&gt; at endemicity is more
-complex; feel free to derive it for fun!  For our purposes here, we are
-interested in what we obtain at first order in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;, which
-gives us &lt;span class="raw-html"&gt;\[\dot{x} = - \omega x - \omega y - \beta_* x I_* - \beta_*
-S_* y - \phi S_* I_* + \mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_*
-x I_* + \beta_* S_* y + \phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .
-\qquad \mathrm{(2)} \]&lt;/span&gt;&lt;/p&gt;
+I_* \, , \qquad\ 0 = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt; These have a solution
+when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go endemic,
+i.e. when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/\gamma &amp;gt; 1 \)&lt;/span&gt;; the other fixed
+point is when &lt;span class="raw-html"&gt;\(I_* = 1 - (1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog
+about later. The expression for the expected number of susceptibles
+&lt;span class="raw-html"&gt;\(S_*\)&lt;/span&gt; at endemicity is more complex; feel free to derive it for
+fun!  For our purposes here, we are interested in what we obtain at first order
+in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;, which gives us &lt;span class="raw-html"&gt;\[\dot{x} = - \omega x -
+\omega y - \beta_* x I_* - \beta_* S_* y - \phi S_* I_* +
+\mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_* x I_* + \beta_* S_* y +
+\phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .  \qquad \mathrm{(2)}
+\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;OK, so take a breath. Now, with a bit of work, we can write both equations (1)
 and (2) (neglecting quadratic terms in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;) above in the
 form of a two-dimensional vector differential equation
 &lt;span class="raw-html"&gt;\[\dot{\mathbf{v}} = \boldsymbol{J} \mathbf{v} + \mathbf{F}(t) \, ,
 \qquad \mathrm{(3)} \]&lt;/span&gt; where &lt;span class="raw-html"&gt;\(\mathbf{v}\)&lt;/span&gt; is a vector containing
-the dynamical variables, &lt;span class="raw-html"&gt;\(\boldsymbol{J}\)&lt;/span&gt; is a matrix depending
-on rate constants, and &lt;span class="raw-html"&gt;\(\mathbf{F}(t)\)&lt;/span&gt; is a vector function of
-time. The eagle-eyed will note that these are not quite the same, but also that
+the dynamical variables -- &lt;span class="raw-html"&gt;\((z,p)\)&lt;/span&gt; for the spring and
+&lt;span class="raw-html"&gt;\((x,y)\)&lt;/span&gt; for the SIRS model -- &lt;span class="raw-html"&gt;\(\boldsymbol{J}\)&lt;/span&gt; is a
+matrix depending on rate constants, and &lt;span class="raw-html"&gt;\(\mathbf{F}(t)\)&lt;/span&gt; is a
+vector function of time. The eagle-eyed will note that the details of the
+versions of (3) derived from (1) and (2) are not quite the same, but also that
 equation (3) takes the same structure under the linear transformation
 &lt;span class="raw-html"&gt;\[\tilde{\mathbf{v}} = \boldsymbol{T} \mathbf{v} \, ,\quad
-\tilde{\boldsymbol{J}} = \boldsymbol{J}\boldsymbol{J}\boldsymbol{T}^{-1} \,
-,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level mathematics). But
-the TL;DR is this: imagine&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+\tilde{\boldsymbol{J}} = \boldsymbol{T}\boldsymbol{J}\boldsymbol{T}^{-1} \,
+,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]&lt;/span&gt; They might also
+have fun trying to work with (3) via matrix integrating factor, Eigensystem
+analysis, or maybe Fourier transform.&lt;/p&gt;
+&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level
+mathematics apart from the last bit). But the TL;DR is this: imagine all the
+complexity that you can generate by bouncing a weight up and down. If your taps
+line up just right with the how the spring behaves, you can get regular
+oscillations, but it's not difficult to make the weight jump irregularly all
+over the place. And this is exactly what we can see with an endemic disease:
+there's no guarantee that oscillatory behaviour will be regular or predictable.&lt;/p&gt;
+&lt;p&gt;Now, for many diseases that are&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 
 &lt;p&gt;This set of equations does not have a general closed form, but we can look for
 an approximate one using the Ansatz &lt;span class="raw-html"&gt;\[S(t) = S_* + \epsilon x(t) \,
 , \quad\ I(t) = I_* + \epsilon y(t) \, , \quad R(t) = N - S(t) - I(t) \, ,
-\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]&lt;/span&gt;. We want this to correspond
+\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]&lt;/span&gt; We want this to correspond
 to a fixed point of the dynamical system when &lt;span class="raw-html"&gt;\(\epsilon = 0\)&lt;/span&gt;,
 leading to the equations &lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_*
-I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt; These have a
-solution when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go
-endemic (which happens when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/\gamma &amp;gt; 1
-\)&lt;/span&gt;; otherwise we have the interesting result that &lt;span class="raw-html"&gt;\(I_* = 1 -
-(1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog about later. The expression for the
-expected number of susceptibles &lt;span class="raw-html"&gt;\(S_*\)&lt;/span&gt; at endemicity is more
-complex; feel free to derive it for fun!  For our purposes here, we are
-interested in what we obtain at first order in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;, which
-gives us &lt;span class="raw-html"&gt;\[\dot{x} = - \omega x - \omega y - \beta_* x I_* - \beta_*
-S_* y - \phi S_* I_* + \mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_*
-x I_* + \beta_* S_* y + \phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .
-\qquad \mathrm{(2)} \]&lt;/span&gt;&lt;/p&gt;
+I_* \, , \qquad\ 0 = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt; These have a solution
+when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go endemic,
+i.e. when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/\gamma &amp;gt; 1 \)&lt;/span&gt;; the other fixed
+point is when &lt;span class="raw-html"&gt;\(I_* = 1 - (1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog
+about later. The expression for the expected number of susceptibles
+&lt;span class="raw-html"&gt;\(S_*\)&lt;/span&gt; at endemicity is more complex; feel free to derive it for
+fun!  For our purposes here, we are interested in what we obtain at first order
+in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;, which gives us &lt;span class="raw-html"&gt;\[\dot{x} = - \omega x -
+\omega y - \beta_* x I_* - \beta_* S_* y - \phi S_* I_* +
+\mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_* x I_* + \beta_* S_* y +
+\phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .  \qquad \mathrm{(2)}
+\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;OK, so take a breath. Now, with a bit of work, we can write both equations (1)
 and (2) (neglecting quadratic terms in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;) above in the
 form of a two-dimensional vector differential equation
 &lt;span class="raw-html"&gt;\[\dot{\mathbf{v}} = \boldsymbol{J} \mathbf{v} + \mathbf{F}(t) \, ,
 \qquad \mathrm{(3)} \]&lt;/span&gt; where &lt;span class="raw-html"&gt;\(\mathbf{v}\)&lt;/span&gt; is a vector containing
-the dynamical variables, &lt;span class="raw-html"&gt;\(\boldsymbol{J}\)&lt;/span&gt; is a matrix depending
-on rate constants, and &lt;span class="raw-html"&gt;\(\mathbf{F}(t)\)&lt;/span&gt; is a vector function of
-time. The eagle-eyed will note that these are not quite the same, but also that
+the dynamical variables -- &lt;span class="raw-html"&gt;\((z,p)\)&lt;/span&gt; for the spring and
+&lt;span class="raw-html"&gt;\((x,y)\)&lt;/span&gt; for the SIRS model -- &lt;span class="raw-html"&gt;\(\boldsymbol{J}\)&lt;/span&gt; is a
+matrix depending on rate constants, and &lt;span class="raw-html"&gt;\(\mathbf{F}(t)\)&lt;/span&gt; is a
+vector function of time. The eagle-eyed will note that the details of the
+versions of (3) derived from (1) and (2) are not quite the same, but also that
 equation (3) takes the same structure under the linear transformation
 &lt;span class="raw-html"&gt;\[\tilde{\mathbf{v}} = \boldsymbol{T} \mathbf{v} \, ,\quad
-\tilde{\boldsymbol{J}} = \boldsymbol{J}\boldsymbol{J}\boldsymbol{T}^{-1} \,
-,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level mathematics). But
-the TL;DR is this: imagine&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+\tilde{\boldsymbol{J}} = \boldsymbol{T}\boldsymbol{J}\boldsymbol{T}^{-1} \,
+,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]&lt;/span&gt; They might also
+have fun trying to work with (3) via matrix integrating factor, Eigensystem
+analysis, or maybe Fourier transform.&lt;/p&gt;
+&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level
+mathematics apart from the last bit). But the TL;DR is this: imagine all the
+complexity that you can generate by bouncing a weight up and down. If your taps
+line up just right with the how the spring behaves, you can get regular
+oscillations, but it's not difficult to make the weight jump irregularly all
+over the place. And this is exactly what we can see with an endemic disease:
+there's no guarantee that oscillatory behaviour will be regular or predictable.&lt;/p&gt;
+&lt;p&gt;Now, for many diseases that are&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 
 &lt;p&gt;OK, so take a breath. Now, with a bit of work, we can write both equations (1)
 and (2) (neglecting quadratic terms in &lt;span class="raw-html"&gt;\(\epsilon\)&lt;/span&gt;) above in the
 form of a two-dimensional vector differential equation
 &lt;span class="raw-html"&gt;\[\dot{\mathbf{v}} = \boldsymbol{J} \mathbf{v} + \mathbf{F}(t) \, ,
 \qquad \mathrm{(3)} \]&lt;/span&gt; where &lt;span class="raw-html"&gt;\(\mathbf{v}\)&lt;/span&gt; is a vector containing
-the dynamical variables, &lt;span class="raw-html"&gt;\(\boldsymbol{J}\)&lt;/span&gt; is a matrix depending
-on rate constants, and &lt;span class="raw-html"&gt;\(\mathbf{F}(t)\)&lt;/span&gt; is a vector function of
-time. The eagle-eyed will note that these are not quite the same, but also that
+the dynamical variables -- &lt;span class="raw-html"&gt;\((z,p)\)&lt;/span&gt; for the spring and
+&lt;span class="raw-html"&gt;\((x,y)\)&lt;/span&gt; for the SIRS model -- &lt;span class="raw-html"&gt;\(\boldsymbol{J}\)&lt;/span&gt; is a
+matrix depending on rate constants, and &lt;span class="raw-html"&gt;\(\mathbf{F}(t)\)&lt;/span&gt; is a
+vector function of time. The eagle-eyed will note that the details of the
+versions of (3) derived from (1) and (2) are not quite the same, but also that
 equation (3) takes the same structure under the linear transformation
 &lt;span class="raw-html"&gt;\[\tilde{\mathbf{v}} = \boldsymbol{T} \mathbf{v} \, ,\quad
-\tilde{\boldsymbol{J}} = \boldsymbol{J}\boldsymbol{J}\boldsymbol{T}^{-1} \,
-,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level mathematics). But
-the TL;DR is this: imagine&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+\tilde{\boldsymbol{J}} = \boldsymbol{T}\boldsymbol{J}\boldsymbol{T}^{-1} \,
+,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]&lt;/span&gt; They might also
+have fun trying to work with (3) via matrix integrating factor, Eigensystem
+analysis, or maybe Fourier transform.&lt;/p&gt;
+&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level
+mathematics apart from the last bit). But the TL;DR is this: imagine all the
+complexity that you can generate by bouncing a weight up and down. If your taps
+line up just right with the how the spring behaves, you can get regular
+oscillations, but it's not difficult to make the weight jump irregularly all
+over the place. And this is exactly what we can see with an endemic disease:
+there's no guarantee that oscillatory behaviour will be regular or predictable.&lt;/p&gt;
+&lt;p&gt;Now, for many diseases that are&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 
-&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level mathematics). But
-the TL;DR is this: imagine&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;p&gt;So, that was quite fiddly (although not much beyond high-school level
+mathematics apart from the last bit). But the TL;DR is this: imagine all the
+complexity that you can generate by bouncing a weight up and down. If your taps
+line up just right with the how the spring behaves, you can get regular
+oscillations, but it's not difficult to make the weight jump irregularly all
+over the place. And this is exactly what we can see with an endemic disease:
+there's no guarantee that oscillatory behaviour will be regular or predictable.&lt;/p&gt;
+&lt;p&gt;Now, for many diseases that are&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+
+&lt;p&gt;Now, for many diseases that are&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </description><guid>https://personalpages.manchester.ac.uk/staff/thomas.house/posts/seasonality-and-immunity.html</guid><pubDate>Wed, 18 Aug 2021 18:33:04 GMT</pubDate></item><item><title>Why Zero is so Hard</title><link>https://personalpages.manchester.ac.uk/staff/thomas.house/posts/why-zero-is-so-hard.html</link><dc:creator>Thomas House</dc:creator><description>&lt;p&gt;The post on herd immunity on this blog discussed mitigation policies. Since
 then, the world has moved on somewhat, and many people are talking about
 long-term suppression of COVID-19, so how long might that take?&lt;/p&gt;

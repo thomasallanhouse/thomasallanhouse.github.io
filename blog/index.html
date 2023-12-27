@@ -102,13 +102,7 @@
             <a href="../posts/seasonality-and-immunity.html" rel="bookmark">
             <time class="published dt-published" datetime="2021-08-18T18:33:04Z" itemprop="datePublished" title="2021-08-18 18:33">2021-08-18 18:33</time></a>
             </p>
-                        <p class="commentline">
-    
-    <a href="../posts/seasonality-and-immunity.html#disqus_thread" data-disqus-identifier="cache/posts/seasonality-and-immunity.html">Comments</a>
-
-
-                </p>
-</div>
+                </div>
             </header><div class="e-content entry-content">
                     <p><strong>Note:</strong> This blogpost was conceptualised in August 2021, and should be public
 early in 2024. My attempts to do long-form outreach were somewhat put on hold
@@ -135,7 +129,7 @@ position so that <span class="raw-html">\(a = \ddot{z}\)</span> and combining th
 contributions above we get <span class="raw-html">\[-kz - \nu \dot{z} + \varphi(t) = m
 \ddot{z}\, .\]</span> Dredging still further, we might remember that momentum is
 <span class="raw-html">\(p = m\dot{z}\)</span>, which gives us dynamics <span class="raw-html">\[\dot{z} =
-\frac{1}{m} p \, , \qquad \dot{p} = -kz - \frac{\nu}{m} p + \varphi(t) =\, .
+\frac{1}{m} p \, , \qquad \dot{p} = -kz - \frac{\nu}{m} p + \varphi(t) \, .
 \qquad \mathrm{(1)} \]</span></p>
 <p>Next, let us consider an SIRS model with forcing, <span class="raw-html">\[\dot{S} = \omega
 R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
@@ -150,35 +144,45 @@ that I make available on GitHub.</p>
 <p>This set of equations does not have a general closed form, but we can look for
 an approximate one using the Ansatz <span class="raw-html">\[S(t) = S_* + \epsilon x(t) \,
 , \quad\ I(t) = I_* + \epsilon y(t) \, , \quad R(t) = N - S(t) - I(t) \, ,
-\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]</span>. We want this to correspond
+\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]</span> We want this to correspond
 to a fixed point of the dynamical system when <span class="raw-html">\(\epsilon = 0\)</span>,
 leading to the equations <span class="raw-html">\[0 = \omega (N - S_* - I_*) - \beta_* S_*
-I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]</span> These have a
-solution when <span class="raw-html">\(I_* = 0\)</span> that is unstable if the disease can go
-endemic (which happens when <span class="raw-html">\(\mathcal{R}_0 = \beta_*/\gamma &gt; 1
-\)</span>; otherwise we have the interesting result that <span class="raw-html">\(I_* = 1 -
-(1/\mathcal{R}_0)\)</span>, which I hope to blog about later. The expression for the
-expected number of susceptibles <span class="raw-html">\(S_*\)</span> at endemicity is more
-complex; feel free to derive it for fun!  For our purposes here, we are
-interested in what we obtain at first order in <span class="raw-html">\(\epsilon\)</span>, which
-gives us <span class="raw-html">\[\dot{x} = - \omega x - \omega y - \beta_* x I_* - \beta_*
-S_* y - \phi S_* I_* + \mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_*
-x I_* + \beta_* S_* y + \phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .
-\qquad \mathrm{(2)} \]</span></p>
+I_* \, , \qquad\ 0 = \beta_* S_* I_* - \gamma I_* \, .\]</span> These have a solution
+when <span class="raw-html">\(I_* = 0\)</span> that is unstable if the disease can go endemic,
+i.e. when <span class="raw-html">\(\mathcal{R}_0 = \beta_*/\gamma &gt; 1 \)</span>; the other fixed
+point is when <span class="raw-html">\(I_* = 1 - (1/\mathcal{R}_0)\)</span>, which I hope to blog
+about later. The expression for the expected number of susceptibles
+<span class="raw-html">\(S_*\)</span> at endemicity is more complex; feel free to derive it for
+fun!  For our purposes here, we are interested in what we obtain at first order
+in <span class="raw-html">\(\epsilon\)</span>, which gives us <span class="raw-html">\[\dot{x} = - \omega x -
+\omega y - \beta_* x I_* - \beta_* S_* y - \phi S_* I_* +
+\mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_* x I_* + \beta_* S_* y +
+\phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .  \qquad \mathrm{(2)}
+\]</span></p>
 <p>OK, so take a breath. Now, with a bit of work, we can write both equations (1)
 and (2) (neglecting quadratic terms in <span class="raw-html">\(\epsilon\)</span>) above in the
 form of a two-dimensional vector differential equation
 <span class="raw-html">\[\dot{\mathbf{v}} = \boldsymbol{J} \mathbf{v} + \mathbf{F}(t) \, ,
 \qquad \mathrm{(3)} \]</span> where <span class="raw-html">\(\mathbf{v}\)</span> is a vector containing
-the dynamical variables, <span class="raw-html">\(\boldsymbol{J}\)</span> is a matrix depending
-on rate constants, and <span class="raw-html">\(\mathbf{F}(t)\)</span> is a vector function of
-time. The eagle-eyed will note that these are not quite the same, but also that
+the dynamical variables -- <span class="raw-html">\((z,p)\)</span> for the spring and
+<span class="raw-html">\((x,y)\)</span> for the SIRS model -- <span class="raw-html">\(\boldsymbol{J}\)</span> is a
+matrix depending on rate constants, and <span class="raw-html">\(\mathbf{F}(t)\)</span> is a
+vector function of time. The eagle-eyed will note that the details of the
+versions of (3) derived from (1) and (2) are not quite the same, but also that
 equation (3) takes the same structure under the linear transformation
 <span class="raw-html">\[\tilde{\mathbf{v}} = \boldsymbol{T} \mathbf{v} \, ,\quad
-\tilde{\boldsymbol{J}} = \boldsymbol{J}\boldsymbol{J}\boldsymbol{T}^{-1} \,
-,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]</span></p>
-<p>So, that was quite fiddly (although not much beyond high-school level mathematics). But
-the TL;DR is this: imagine</p>
+\tilde{\boldsymbol{J}} = \boldsymbol{T}\boldsymbol{J}\boldsymbol{T}^{-1} \,
+,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]</span> They might also
+have fun trying to work with (3) via matrix integrating factor, Eigensystem
+analysis, or maybe Fourier transform.</p>
+<p>So, that was quite fiddly (although not much beyond high-school level
+mathematics apart from the last bit). But the TL;DR is this: imagine all the
+complexity that you can generate by bouncing a weight up and down. If your taps
+line up just right with the how the spring behaves, you can get regular
+oscillations, but it's not difficult to make the weight jump irregularly all
+over the place. And this is exactly what we can see with an endemic disease:
+there's no guarantee that oscillatory behaviour will be regular or predictable.</p>
+<p>Now, for many diseases that are</p>
                 </div>
             </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="../posts/why-zero-is-so-hard.html" class="u-url">Why Zero is so Hard</a></h1>
                 <div class="metadata">
@@ -189,13 +193,7 @@ the TL;DR is this: imagine</p>
             <a href="../posts/why-zero-is-so-hard.html" rel="bookmark">
             <time class="published dt-published" datetime="2020-08-10T21:18:21Z" itemprop="datePublished" title="2020-08-10 21:18">2020-08-10 21:18</time></a>
             </p>
-                        <p class="commentline">
-    
-    <a href="../posts/why-zero-is-so-hard.html#disqus_thread" data-disqus-identifier="cache/posts/why-zero-is-so-hard.html">Comments</a>
-
-
-                </p>
-</div>
+                </div>
             </header><div class="e-content entry-content">
                     <p>The post on herd immunity on this blog discussed mitigation policies. Since
 then, the world has moved on somewhat, and many people are talking about
@@ -238,13 +236,7 @@ correspond to 1, 2, 3, 5 and 10 years.</p>
             <a href="../posts/modelling-herd-immunity.html" rel="bookmark">
             <time class="published dt-published" datetime="2020-03-14T09:54:38Z" itemprop="datePublished" title="2020-03-14 09:54">2020-03-14 09:54</time></a>
             </p>
-                        <p class="commentline">
-    
-    <a href="../posts/modelling-herd-immunity.html#disqus_thread" data-disqus-identifier="cache/posts/modelling-herd-immunity.html">Comments</a>
-
-
-                </p>
-</div>
+                </div>
             </header><div class="e-content entry-content">
                     <p>The current coronavirus outbreak (COVID-19) has raised questions about herd
 immunity, social distancing measures, and the relationship between these. In
@@ -403,13 +395,7 @@ interventions are always better is incorrect.</p>
             <a href="../posts/semester-1-2018.html" rel="bookmark">
             <time class="published dt-published" datetime="2018-12-21T10:30:44Z" itemprop="datePublished" title="2018-12-21 10:30">2018-12-21 10:30</time></a>
             </p>
-                        <p class="commentline">
-    
-    <a href="../posts/semester-1-2018.html#disqus_thread" data-disqus-identifier="cache/posts/semester-1-2018.html">Comments</a>
-
-
-                </p>
-</div>
+                </div>
             </header><div class="e-content entry-content">
                     <p>This table gives a rough idea of where I was in Semester 1, 2018; I'm putting
 it here mainly in case I need to re-use the HTML.</p>
@@ -513,13 +499,7 @@ Alan Turing Building G.221A
             <a href="../posts/opportunities-in-manchester.html" rel="bookmark">
             <time class="published dt-published" datetime="2018-11-12T12:06:21Z" itemprop="datePublished" title="2018-11-12 12:06">2018-11-12 12:06</time></a>
             </p>
-                        <p class="commentline">
-    
-    <a href="../posts/opportunities-in-manchester.html#disqus_thread" data-disqus-identifier="cache/posts/opportunities-in-manchester.html">Comments</a>
-
-
-                </p>
-</div>
+                </div>
             </header><div class="e-content entry-content">
                     <img alt="Mathematical Epidemiologists 2018" class="align-right" src="../group_2018.jpg" style="width: 360px;"><p>There are various opportunities to work in areas related to Mathematical
 Epidemiology in Manchester at present - a recent meeting of our lively and
@@ -552,13 +532,7 @@ and
             <a href="../posts/caffeine-in-pregnancy-weak-identifiability-and-working-with-the-media.html" rel="bookmark">
             <time class="published dt-published" datetime="2018-04-25T12:19:27Z" itemprop="datePublished" title="2018-04-25 12:19">2018-04-25 12:19</time></a>
             </p>
-                        <p class="commentline">
-    
-    <a href="../posts/caffeine-in-pregnancy-weak-identifiability-and-working-with-the-media.html#disqus_thread" data-disqus-identifier="cache/posts/caffeine-in-pregnancy-weak-identifiability-and-working-with-the-media.html">Comments</a>
-
-
-                </p>
-</div>
+                </div>
             </header><div class="e-content entry-content">
                     <p>A recent <a class="reference external" href="http://bmjopen.bmj.com/content/8/3/e018895/">Paper in BMJ Open</a>
 deals with the question of maternal caffeine intake and childhood obesity.</p>
@@ -665,13 +639,7 @@ evidence for a causal effect is weak in the original study.</p>
             <a href="../posts/visualising-the-wishart-distribution.html" rel="bookmark">
             <time class="published dt-published" datetime="2017-12-08T12:08:22Z" itemprop="datePublished" title="2017-12-08 12:08">2017-12-08 12:08</time></a>
             </p>
-                        <p class="commentline">
-    
-    <a href="../posts/visualising-the-wishart-distribution.html#disqus_thread" data-disqus-identifier="cache/posts/visualising-the-wishart-distribution.html">Comments</a>
-
-
-                </p>
-</div>
+                </div>
             </header><div class="e-content entry-content">
                     <p>This semester, I have been teaching Multivariate Statistics, and one isse that comes up is how to think
 about the Wishart distribution, which generalises the <span class="raw-html">\(\chi^2 \)</span> distribution. This has
@@ -778,13 +746,7 @@ the degrees of freedom <span class="raw-html">\(k \)</span> are increased.</p>
             <a href="../posts/mathematics-of-memes.html" rel="bookmark">
             <time class="published dt-published" datetime="2017-09-20T12:38:56Z" itemprop="datePublished" title="2017-09-20 12:38">2017-09-20 12:38</time></a>
             </p>
-                        <p class="commentline">
-    
-    <a href="../posts/mathematics-of-memes.html#disqus_thread" data-disqus-identifier="cache/posts/mathematics-of-memes.html">Comments</a>
-
-
-                </p>
-</div>
+                </div>
             </header><div class="e-content entry-content">
                     <p>Models of epidemics can be adapted to consider the spread of internet Memes - for more information see
 the University <a class="reference external" href="http://www.manchester.ac.uk/discover/news/the-maths-behind-memes-why-numbers-could-help-us-predict-an-internet-sensation/">Press Release</a>.
@@ -803,13 +765,7 @@ of social influence that must be accounted for in such contexts, and as such are
             <a href="../posts/operationalising-modern-mathematical-epidemiology.html" rel="bookmark">
             <time class="published dt-published" datetime="2017-03-08T10:36:43Z" itemprop="datePublished" title="2017-03-08 10:36">2017-03-08 10:36</time></a>
             </p>
-                        <p class="commentline">
-    
-    <a href="../posts/operationalising-modern-mathematical-epidemiology.html#disqus_thread" data-disqus-identifier="cache/posts/operationalising-modern-mathematical-epidemiology.html">Comments</a>
-
-
-                </p>
-</div>
+                </div>
             </header><div class="e-content entry-content">
                     <p>This month Liz Buckingham-Jeffery is joining me and Tim Kinyanjui to complete
 the team for the EPSRC-funded project <em>Operationalising Modern Mathematical
@@ -835,13 +791,7 @@ realised.</p>
             <a href="../posts/idm-journal.html" rel="bookmark">
             <time class="published dt-published" datetime="2017-01-20T16:04:18Z" itemprop="datePublished" title="2017-01-20 16:04">2017-01-20 16:04</time></a>
             </p>
-                        <p class="commentline">
-    
-    <a href="../posts/idm-journal.html#disqus_thread" data-disqus-identifier="cache/posts/idm-journal.html">Comments</a>
-
-
-                </p>
-</div>
+                </div>
             </header><div class="e-content entry-content">
                     <a class="reference external image-reference" href="http://keaipublishing.com/IDM/"><img alt="Journal flyer" src="../IDM.png" style="width: 240px;"></a>
 <p>International cooperation is a good thing in science; so it's nice to be able
@@ -853,7 +803,7 @@ to announce a new journal <a class="reference external" href="http://keaipublish
         <ul class="pager postindexpager clearfix">
 <li class="next"><a href="index-1.html" rel="next">Older posts</a></li>
         </ul>
-<script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" integrity="sha384-3lJUsx1TJHt7BA4udB5KPnDrlkO8T6J6v/op7ui0BbCjvZ9WqV4Xm6DTP6kQ/iBH" crossorigin="anonymous"></script><script type="text/x-mathjax-config">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" integrity="sha384-3lJUsx1TJHt7BA4udB5KPnDrlkO8T6J6v/op7ui0BbCjvZ9WqV4Xm6DTP6kQ/iBH" crossorigin="anonymous"></script><script type="text/x-mathjax-config">
         MathJax.Hub.Config({tex2jax: {inlineMath: [['$latex ','$'], ['\\(','\\)']]}});
         </script><!--End of body content--><footer id="footer"></footer>
 </div>

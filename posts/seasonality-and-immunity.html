@@ -112,14 +112,8 @@ by work around the COVID pandemic. Anyway, wit">
             <a href="#" rel="bookmark">
             <time class="published dt-published" datetime="2021-08-18T18:33:04Z" itemprop="datePublished" title="2021-08-18 18:33">2021-08-18 18:33</time></a>
             </p>
-                <p class="commentline">
-    
-    <a href="seasonality-and-immunity.html#disqus_thread" data-disqus-identifier="cache/posts/seasonality-and-immunity.html">Comments</a>
-
-
             
-        </p>
-<p class="sourceline"><a href="seasonality-and-immunity.rst" class="sourcelink">Source</a></p>
+        <p class="sourceline"><a href="seasonality-and-immunity.rst" class="sourcelink">Source</a></p>
 
         </div>
         
@@ -150,7 +144,7 @@ position so that <span class="raw-html">\(a = \ddot{z}\)</span> and combining th
 contributions above we get <span class="raw-html">\[-kz - \nu \dot{z} + \varphi(t) = m
 \ddot{z}\, .\]</span> Dredging still further, we might remember that momentum is
 <span class="raw-html">\(p = m\dot{z}\)</span>, which gives us dynamics <span class="raw-html">\[\dot{z} =
-\frac{1}{m} p \, , \qquad \dot{p} = -kz - \frac{\nu}{m} p + \varphi(t) =\, .
+\frac{1}{m} p \, , \qquad \dot{p} = -kz - \frac{\nu}{m} p + \varphi(t) \, .
 \qquad \mathrm{(1)} \]</span></p>
 <p>Next, let us consider an SIRS model with forcing, <span class="raw-html">\[\dot{S} = \omega
 R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
@@ -165,65 +159,53 @@ that I make available on GitHub.</p>
 <p>This set of equations does not have a general closed form, but we can look for
 an approximate one using the Ansatz <span class="raw-html">\[S(t) = S_* + \epsilon x(t) \,
 , \quad\ I(t) = I_* + \epsilon y(t) \, , \quad R(t) = N - S(t) - I(t) \, ,
-\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]</span>. We want this to correspond
+\quad \beta(t) = \beta_* + \epsilon \phi(t) \, .\]</span> We want this to correspond
 to a fixed point of the dynamical system when <span class="raw-html">\(\epsilon = 0\)</span>,
 leading to the equations <span class="raw-html">\[0 = \omega (N - S_* - I_*) - \beta_* S_*
-I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]</span> These have a
-solution when <span class="raw-html">\(I_* = 0\)</span> that is unstable if the disease can go
-endemic (which happens when <span class="raw-html">\(\mathcal{R}_0 = \beta_*/\gamma &gt; 1
-\)</span>; otherwise we have the interesting result that <span class="raw-html">\(I_* = 1 -
-(1/\mathcal{R}_0)\)</span>, which I hope to blog about later. The expression for the
-expected number of susceptibles <span class="raw-html">\(S_*\)</span> at endemicity is more
-complex; feel free to derive it for fun!  For our purposes here, we are
-interested in what we obtain at first order in <span class="raw-html">\(\epsilon\)</span>, which
-gives us <span class="raw-html">\[\dot{x} = - \omega x - \omega y - \beta_* x I_* - \beta_*
-S_* y - \phi S_* I_* + \mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_*
-x I_* + \beta_* S_* y + \phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .
-\qquad \mathrm{(2)} \]</span></p>
+I_* \, , \qquad\ 0 = \beta_* S_* I_* - \gamma I_* \, .\]</span> These have a solution
+when <span class="raw-html">\(I_* = 0\)</span> that is unstable if the disease can go endemic,
+i.e. when <span class="raw-html">\(\mathcal{R}_0 = \beta_*/\gamma &gt; 1 \)</span>; the other fixed
+point is when <span class="raw-html">\(I_* = 1 - (1/\mathcal{R}_0)\)</span>, which I hope to blog
+about later. The expression for the expected number of susceptibles
+<span class="raw-html">\(S_*\)</span> at endemicity is more complex; feel free to derive it for
+fun!  For our purposes here, we are interested in what we obtain at first order
+in <span class="raw-html">\(\epsilon\)</span>, which gives us <span class="raw-html">\[\dot{x} = - \omega x -
+\omega y - \beta_* x I_* - \beta_* S_* y - \phi S_* I_* +
+\mathcal{O}(\epsilon^2)  \, , \qquad\ \dot{y} = \beta_* x I_* + \beta_* S_* y +
+\phi S_* I_* - \gamma y  + \mathcal{O}(\epsilon^2) \, .  \qquad \mathrm{(2)}
+\]</span></p>
 <p>OK, so take a breath. Now, with a bit of work, we can write both equations (1)
 and (2) (neglecting quadratic terms in <span class="raw-html">\(\epsilon\)</span>) above in the
 form of a two-dimensional vector differential equation
 <span class="raw-html">\[\dot{\mathbf{v}} = \boldsymbol{J} \mathbf{v} + \mathbf{F}(t) \, ,
 \qquad \mathrm{(3)} \]</span> where <span class="raw-html">\(\mathbf{v}\)</span> is a vector containing
-the dynamical variables, <span class="raw-html">\(\boldsymbol{J}\)</span> is a matrix depending
-on rate constants, and <span class="raw-html">\(\mathbf{F}(t)\)</span> is a vector function of
-time. The eagle-eyed will note that these are not quite the same, but also that
+the dynamical variables -- <span class="raw-html">\((z,p)\)</span> for the spring and
+<span class="raw-html">\((x,y)\)</span> for the SIRS model -- <span class="raw-html">\(\boldsymbol{J}\)</span> is a
+matrix depending on rate constants, and <span class="raw-html">\(\mathbf{F}(t)\)</span> is a
+vector function of time. The eagle-eyed will note that the details of the
+versions of (3) derived from (1) and (2) are not quite the same, but also that
 equation (3) takes the same structure under the linear transformation
 <span class="raw-html">\[\tilde{\mathbf{v}} = \boldsymbol{T} \mathbf{v} \, ,\quad
-\tilde{\boldsymbol{J}} = \boldsymbol{J}\boldsymbol{J}\boldsymbol{T}^{-1} \,
-,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]</span></p>
-<p>So, that was quite fiddly (although not much beyond high-school level mathematics). But
-the TL;DR is this: imagine</p>
+\tilde{\boldsymbol{J}} = \boldsymbol{T}\boldsymbol{J}\boldsymbol{T}^{-1} \,
+,\quad \tilde{\mathbf{F}} = \boldsymbol{T} \mathbf{F} \, . \]</span> They might also
+have fun trying to work with (3) via matrix integrating factor, Eigensystem
+analysis, or maybe Fourier transform.</p>
+<p>So, that was quite fiddly (although not much beyond high-school level
+mathematics apart from the last bit). But the TL;DR is this: imagine all the
+complexity that you can generate by bouncing a weight up and down. If your taps
+line up just right with the how the spring behaves, you can get regular
+oscillations, but it's not difficult to make the weight jump irregularly all
+over the place. And this is exactly what we can see with an endemic disease:
+there's no guarantee that oscillatory behaviour will be regular or predictable.</p>
+<p>Now, for many diseases that are</p>
     </div>
     <aside class="postpromonav"><nav><ul class="pager hidden-print">
 <li class="previous">
                 <a href="why-zero-is-so-hard.html" rel="prev" title="Why Zero is so Hard">Previous post</a>
             </li>
-        </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
-        
-    
-        <div id="disqus_thread"></div>
-        <script>
-        var disqus_shortname ="nikolademo",
-            disqus_url="https://personalpages.manchester.ac.uk/staff/thomas.house/posts/seasonality-and-immunity.html",
-        disqus_title="Seasonality and Immunity",
-        disqus_identifier="cache/posts/seasonality-and-immunity.html",
-        disqus_config = function () {
-            this.language = "en";
-        };
-        (function() {
-            var dsq = document.createElement('script'); dsq.async = true;
-            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-</noscript>
-    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-        </section><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" integrity="sha384-3lJUsx1TJHt7BA4udB5KPnDrlkO8T6J6v/op7ui0BbCjvZ9WqV4Xm6DTP6kQ/iBH" crossorigin="anonymous"></script><script type="text/x-mathjax-config">
+        </ul></nav></aside><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" integrity="sha384-3lJUsx1TJHt7BA4udB5KPnDrlkO8T6J6v/op7ui0BbCjvZ9WqV4Xm6DTP6kQ/iBH" crossorigin="anonymous"></script><script type="text/x-mathjax-config">
         MathJax.Hub.Config({tex2jax: {inlineMath: [['$latex ','$'], ['\\(','\\)']]}});
-        </script></article><script>var disqus_shortname="nikolademo";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer"></footer>
+        </script></article><!--End of body content--><footer id="footer"></footer>
 </div>
 </div>
 
