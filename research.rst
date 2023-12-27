@@ -25,7 +25,7 @@ site to validate my identity, updated with different levels of intensity.
 
 * `ORCiD <https://orcid.org/0000-0001-5835-8062>`__ 
 
-* `|Xitter| (formerly Twitter) <https://twitter.com/TAH_Sci>`__ 
+* `𝕏 (formerly Twitter) <https://twitter.com/TAH_Sci>`__ 
 
 * `BlueSky <https://bsky.app/profile/tah-sci.bsky.social>`__ 
 
@@ -40,7 +40,4 @@ site to validate my identity, updated with different levels of intensity.
 * `Substack <https://substack.com/@thomashouse>`__ 
 
 * `YouTube <https://www.youtube.com/channel/UCSUW2qWLCKlRGz1q6hA7qxA>`__ 
-
-.. |Xitter| unicode:: U+1D54F
-   :trim:
 
