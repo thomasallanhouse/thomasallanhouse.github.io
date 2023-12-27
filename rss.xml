@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thomas House's Personal Website</title><link>https://personalpages.manchester.ac.uk/staff/thomas.house/</link><description>Thomas House's Personal Website</description><atom:link href="https://personalpages.manchester.ac.uk/staff/thomas.house/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2023 &lt;a href="mailto:thomas.house@manchester.ac.uk"&gt;Thomas House&lt;/a&gt; </copyright><lastBuildDate>Wed, 27 Dec 2023 03:05:10 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Seasonality and Immunity</title><link>https://personalpages.manchester.ac.uk/staff/thomas.house/posts/seasonality-and-immunity.html</link><dc:creator>Thomas House</dc:creator><description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This blogpost was conceptualised in August 2021, and&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thomas House's Personal Website</title><link>https://personalpages.manchester.ac.uk/staff/thomas.house/</link><description>Thomas House's Personal Website</description><atom:link href="https://personalpages.manchester.ac.uk/staff/thomas.house/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2023 &lt;a href="mailto:thomas.house@manchester.ac.uk"&gt;Thomas House&lt;/a&gt; </copyright><lastBuildDate>Wed, 27 Dec 2023 19:29:16 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Seasonality and Immunity</title><link>https://personalpages.manchester.ac.uk/staff/thomas.house/posts/seasonality-and-immunity.html</link><dc:creator>Thomas House</dc:creator><description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This blogpost was conceptualised in August 2021, and should be public
+early in 2024. My attempts to do long-form outreach were somewhat put on hold
+by work around the COVID pandemic. Anyway, with the problems going on at𝕏(formerly Twitter), it's&lt;/p&gt;
 &lt;img alt="Spring being pushed, with displacement z from equilibrium" class="align-right" src="https://personalpages.manchester.ac.uk/staff/thomas.house/spring.jpg" style="width: 240px;"&gt;
-&lt;p&gt;Now, (F = ma), and so&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;p&gt;So let's start by considering a weight on a spring as pictured - this is going to give us a physical 'model'
+of disease dynamics for an endemic infection. The&lt;/p&gt;
+&lt;p&gt;Now, &lt;span class="raw-html"&gt;\(F = ma\)&lt;/span&gt;, and so&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 
 &lt;img alt="Spring being pushed, with displacement z from equilibrium" class="align-right" src="https://personalpages.manchester.ac.uk/staff/thomas.house/spring.jpg" style="width: 240px;"&gt;
-&lt;p&gt;Now, (F = ma), and so&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;p&gt;So let's start by considering a weight on a spring as pictured - this is going to give us a physical 'model'
+of disease dynamics for an endemic infection. The&lt;/p&gt;
+&lt;p&gt;Now, &lt;span class="raw-html"&gt;\(F = ma\)&lt;/span&gt;, and so&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+
+&lt;p&gt;Now, &lt;span class="raw-html"&gt;\(F = ma\)&lt;/span&gt;, and so&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </description><guid>https://personalpages.manchester.ac.uk/staff/thomas.house/posts/seasonality-and-immunity.html</guid><pubDate>Wed, 18 Aug 2021 18:33:04 GMT</pubDate></item><item><title>Why Zero is so Hard</title><link>https://personalpages.manchester.ac.uk/staff/thomas.house/posts/why-zero-is-so-hard.html</link><dc:creator>Thomas House</dc:creator><description>&lt;p&gt;The post on herd immunity on this blog discussed mitigation policies. Since
 then, the world has moved on somewhat, and many people are talking about
 long-term suppression of COVID-19, so how long might that take?&lt;/p&gt;
