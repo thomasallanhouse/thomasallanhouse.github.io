@@ -144,20 +144,29 @@ contribution <span class="raw-html">\(\nu \dot{z}\)</span>;</p></li>
 <li><p>A human is pushing at the weight giving a time-dependent force contribution
 <span class="raw-html">\(\varphi(t)\)</span>.</p></li>
 </ul>
-<p>Now, dredging up our high-school physics we remember that force and momentum
-are given by <span class="raw-html">\(F = ma\)</span> and <span class="raw-html">\(p = m\dot{z}\)</span>
-respectively. Noting</p>
-<p>Next, let us consider an SIRS model with forcing,</p>
-<p><span class="raw-html">\[\dot{S} = \omega R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
-\dot{R} = \gamma I - \omega R \, .\]</span>
-This set of equations does not have a closed form, but we can look for one in the
-<span class="raw-html">\[S(t) = S_* + \epsilon x(t) \, , \quad\ I(t) = I_* + y(t) \, , \quad
-R(t) = N - S(t) - I(t) \, , \quad \beta(t) = \beta_* + \phi(t) \, .\]</span>.</p>
-<p><span class="raw-html">\[0 = \omega (N - S_* - I_*) - \beta_* S_* I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]</span></p>
-<p>These have a solution when <span class="raw-html">\(I_* = 0\)</span> that is unstable if the disease can go endemic (which
-happens when <span class="raw-html">\(\mathcal{R}_0 = \beta_*/gamma &gt; 1 \)</span>; otherwise we have the interesting result
-that <span class="raw-html">\(I_* = 1 - (1/\mathcal{R}_0)\)</span>, which I hope to blog about later. The expression for
-the expected number of susceptibles at endemicity is more complex,</p>
+<p>Now, dredging up our high-school physics we remember that Newton's equation is
+<span class="raw-html">\(F = ma\)</span>. Noting that acceleration is the second derivative of
+position so that <span class="raw-html">\(a = \ddot{z}\)</span> and combining the three force
+contributions above we get <span class="raw-html">\[-kz - \nu \dot{z} + \varphi(t) = m
+\ddot{z}\, .\]</span></p>
+<p>and <span class="raw-html">\(p = m\dot{z}\)</span>
+respectively</p>
+<p>Next, let us consider an SIRS model with forcing, <span class="raw-html">\[\dot{S} = \omega
+R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
+\dot{R} = \gamma I - \omega R \, .\]</span> This set of equations does not have a
+general closed form, but we can look for an approximate one using the Ansatz
+<span class="raw-html">\[S(t) = S_* + \epsilon x(t) \, , \quad\ I(t) = I_* + \epsilon y(t)
+\, , \quad R(t) = N - S(t) - I(t) \, , \quad \beta(t) = \beta_* + \epsilon
+\phi(t) \, .\]</span>. We want this to correspond to a fixed point of the dynamical
+system when <span class="raw-html">\(\epsilon = 0\)</span>, leading to the equations
+<span class="raw-html">\[0 = \omega (N - S_* - I_*) - \beta_* S_* I_* \, , \qquad\ I_* =
+\beta_* S_* I_* - \gamma I_* \, .\]</span> These have a solution when
+<span class="raw-html">\(I_* = 0\)</span> that is unstable if the disease can go endemic (which
+happens when <span class="raw-html">\(\mathcal{R}_0 = \beta_*/\gamma &gt; 1 \)</span>; otherwise we
+have the interesting result that <span class="raw-html">\(I_* = 1 - (1/\mathcal{R}_0)\)</span>,
+which I hope to blog about later. The expression for the expected number of
+susceptibles at endemicity is more complex; feel free to derive it for fun!
+For our purposes here, we are</p>
     </div>
     <aside class="postpromonav"><nav><ul class="pager hidden-print">
 <li class="previous">
