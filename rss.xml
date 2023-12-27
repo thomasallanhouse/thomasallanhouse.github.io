@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thomas House's Personal Website</title><link>https://personalpages.manchester.ac.uk/staff/thomas.house/</link><description>Thomas House's Personal Website</description><atom:link href="https://personalpages.manchester.ac.uk/staff/thomas.house/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2023 &lt;a href="mailto:thomas.house@manchester.ac.uk"&gt;Thomas House&lt;/a&gt; </copyright><lastBuildDate>Wed, 27 Dec 2023 19:52:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Seasonality and Immunity</title><link>https://personalpages.manchester.ac.uk/staff/thomas.house/posts/seasonality-and-immunity.html</link><dc:creator>Thomas House</dc:creator><description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This blogpost was conceptualised in August 2021, and should be public
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thomas House's Personal Website</title><link>https://personalpages.manchester.ac.uk/staff/thomas.house/</link><description>Thomas House's Personal Website</description><atom:link href="https://personalpages.manchester.ac.uk/staff/thomas.house/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2023 &lt;a href="mailto:thomas.house@manchester.ac.uk"&gt;Thomas House&lt;/a&gt; </copyright><lastBuildDate>Wed, 27 Dec 2023 20:00:46 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Seasonality and Immunity</title><link>https://personalpages.manchester.ac.uk/staff/thomas.house/posts/seasonality-and-immunity.html</link><dc:creator>Thomas House</dc:creator><description>&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This blogpost was conceptualised in August 2021, and should be public
 early in 2024. My attempts to do long-form outreach were somewhat put on hold
 by work around the COVID pandemic. Anyway, with the problems going on at 𝕏
 (formerly Twitter), it's struck me that putting any such content on a website
@@ -9,19 +9,26 @@ going forwards.&lt;/p&gt;
 &lt;p&gt;So let's start by considering a weight on a spring as pictured - this is going
 to give us a physical 'model' of disease dynamics for an endemic infection. The
 weight on the spring is a distance &lt;span class="raw-html"&gt;\(z(t)\)&lt;/span&gt; from the point at which
-the system would be at rest. There are three forces acting on the&lt;/p&gt;
-&lt;dl class="simple"&gt;
-&lt;dt&gt;Now, &lt;span class="raw-html"&gt;\(F = ma\)&lt;/span&gt;, and so&lt;/dt&gt;
-&lt;dd&gt;&lt;p&gt;&lt;span class="raw-html"&gt;\(p = m\dot{z}\)&lt;/span&gt;&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
+the system would be at rest. There are three forces acting on the weight:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;The spring pulls it towards equilibrium, to a first approximation,
+proportionally to its spring constant giving a force contribution
+&lt;span class="raw-html"&gt;\(k z\)&lt;/span&gt;;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;As the weight moves, friction dissipates kinetic energy giving a force
+contribution &lt;span class="raw-html"&gt;\(\nu \dot{z}\)&lt;/span&gt;;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A human is pushing at the weight giving a time-dependent force contribution
+&lt;span class="raw-html"&gt;\(\varphi(t)\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now, dredging up our high-school physics we remember that force and momentum
+are given by &lt;span class="raw-html"&gt;\(F = ma\)&lt;/span&gt; and &lt;span class="raw-html"&gt;\(p = m\dot{z}\)&lt;/span&gt;
+respectively. Noting&lt;/p&gt;
 &lt;p&gt;Next, let us consider an SIRS model with forcing,&lt;/p&gt;
 &lt;p&gt;&lt;span class="raw-html"&gt;\[\dot{S} = \omega R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
-\dot{R} = \gamma I - \omega R \, .]&lt;/span&gt;
+\dot{R} = \gamma I - \omega R \, .\]&lt;/span&gt;
 This set of equations does not have a closed form, but we can look for one in the
 &lt;span class="raw-html"&gt;\[S(t) = S_* + \epsilon x(t) \, , \quad\ I(t) = I_* + y(t) \, , \quad
-R(t) = N - S(t) - I(t) \, , \quad \beta(t) = \beta_* + \phi(t) \, .]&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_* I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .]&lt;/span&gt;&lt;/p&gt;
+R(t) = N - S(t) - I(t) \, , \quad \beta(t) = \beta_* + \phi(t) \, .\]&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_* I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;These have a solution when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go endemic (which
 happens when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/gamma &amp;gt; 1 \)&lt;/span&gt;; otherwise we have the interesting result
 that &lt;span class="raw-html"&gt;\(I_* = 1 - (1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog about later. The expression for
@@ -31,36 +38,65 @@ the expected number of susceptibles at endemicity is more complex,&lt;/p&gt;&lt;
 &lt;p&gt;So let's start by considering a weight on a spring as pictured - this is going
 to give us a physical 'model' of disease dynamics for an endemic infection. The
 weight on the spring is a distance &lt;span class="raw-html"&gt;\(z(t)\)&lt;/span&gt; from the point at which
-the system would be at rest. There are three forces acting on the&lt;/p&gt;
-&lt;dl class="simple"&gt;
-&lt;dt&gt;Now, &lt;span class="raw-html"&gt;\(F = ma\)&lt;/span&gt;, and so&lt;/dt&gt;
-&lt;dd&gt;&lt;p&gt;&lt;span class="raw-html"&gt;\(p = m\dot{z}\)&lt;/span&gt;&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
+the system would be at rest. There are three forces acting on the weight:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;The spring pulls it towards equilibrium, to a first approximation,
+proportionally to its spring constant giving a force contribution
+&lt;span class="raw-html"&gt;\(k z\)&lt;/span&gt;;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;As the weight moves, friction dissipates kinetic energy giving a force
+contribution &lt;span class="raw-html"&gt;\(\nu \dot{z}\)&lt;/span&gt;;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A human is pushing at the weight giving a time-dependent force contribution
+&lt;span class="raw-html"&gt;\(\varphi(t)\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now, dredging up our high-school physics we remember that force and momentum
+are given by &lt;span class="raw-html"&gt;\(F = ma\)&lt;/span&gt; and &lt;span class="raw-html"&gt;\(p = m\dot{z}\)&lt;/span&gt;
+respectively. Noting&lt;/p&gt;
 &lt;p&gt;Next, let us consider an SIRS model with forcing,&lt;/p&gt;
 &lt;p&gt;&lt;span class="raw-html"&gt;\[\dot{S} = \omega R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
-\dot{R} = \gamma I - \omega R \, .]&lt;/span&gt;
+\dot{R} = \gamma I - \omega R \, .\]&lt;/span&gt;
 This set of equations does not have a closed form, but we can look for one in the
 &lt;span class="raw-html"&gt;\[S(t) = S_* + \epsilon x(t) \, , \quad\ I(t) = I_* + y(t) \, , \quad
-R(t) = N - S(t) - I(t) \, , \quad \beta(t) = \beta_* + \phi(t) \, .]&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_* I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .]&lt;/span&gt;&lt;/p&gt;
+R(t) = N - S(t) - I(t) \, , \quad \beta(t) = \beta_* + \phi(t) \, .\]&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_* I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;These have a solution when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go endemic (which
 happens when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/gamma &amp;gt; 1 \)&lt;/span&gt;; otherwise we have the interesting result
 that &lt;span class="raw-html"&gt;\(I_* = 1 - (1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog about later. The expression for
 the expected number of susceptibles at endemicity is more complex,&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 
-&lt;dl class="simple"&gt;
-&lt;dt&gt;Now, &lt;span class="raw-html"&gt;\(F = ma\)&lt;/span&gt;, and so&lt;/dt&gt;
-&lt;dd&gt;&lt;p&gt;&lt;span class="raw-html"&gt;\(p = m\dot{z}\)&lt;/span&gt;&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;The spring pulls it towards equilibrium, to a first approximation,
+proportionally to its spring constant giving a force contribution
+&lt;span class="raw-html"&gt;\(k z\)&lt;/span&gt;;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;As the weight moves, friction dissipates kinetic energy giving a force
+contribution &lt;span class="raw-html"&gt;\(\nu \dot{z}\)&lt;/span&gt;;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A human is pushing at the weight giving a time-dependent force contribution
+&lt;span class="raw-html"&gt;\(\varphi(t)\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now, dredging up our high-school physics we remember that force and momentum
+are given by &lt;span class="raw-html"&gt;\(F = ma\)&lt;/span&gt; and &lt;span class="raw-html"&gt;\(p = m\dot{z}\)&lt;/span&gt;
+respectively. Noting&lt;/p&gt;
 &lt;p&gt;Next, let us consider an SIRS model with forcing,&lt;/p&gt;
 &lt;p&gt;&lt;span class="raw-html"&gt;\[\dot{S} = \omega R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
-\dot{R} = \gamma I - \omega R \, .]&lt;/span&gt;
+\dot{R} = \gamma I - \omega R \, .\]&lt;/span&gt;
 This set of equations does not have a closed form, but we can look for one in the
 &lt;span class="raw-html"&gt;\[S(t) = S_* + \epsilon x(t) \, , \quad\ I(t) = I_* + y(t) \, , \quad
-R(t) = N - S(t) - I(t) \, , \quad \beta(t) = \beta_* + \phi(t) \, .]&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_* I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .]&lt;/span&gt;&lt;/p&gt;
+R(t) = N - S(t) - I(t) \, , \quad \beta(t) = \beta_* + \phi(t) \, .\]&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_* I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;These have a solution when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go endemic (which
+happens when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/gamma &amp;gt; 1 \)&lt;/span&gt;; otherwise we have the interesting result
+that &lt;span class="raw-html"&gt;\(I_* = 1 - (1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog about later. The expression for
+the expected number of susceptibles at endemicity is more complex,&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+
+&lt;p&gt;Now, dredging up our high-school physics we remember that force and momentum
+are given by &lt;span class="raw-html"&gt;\(F = ma\)&lt;/span&gt; and &lt;span class="raw-html"&gt;\(p = m\dot{z}\)&lt;/span&gt;
+respectively. Noting&lt;/p&gt;
+&lt;p&gt;Next, let us consider an SIRS model with forcing,&lt;/p&gt;
+&lt;p&gt;&lt;span class="raw-html"&gt;\[\dot{S} = \omega R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
+\dot{R} = \gamma I - \omega R \, .\]&lt;/span&gt;
+This set of equations does not have a closed form, but we can look for one in the
+&lt;span class="raw-html"&gt;\[S(t) = S_* + \epsilon x(t) \, , \quad\ I(t) = I_* + y(t) \, , \quad
+R(t) = N - S(t) - I(t) \, , \quad \beta(t) = \beta_* + \phi(t) \, .\]&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_* I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;These have a solution when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go endemic (which
 happens when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/gamma &amp;gt; 1 \)&lt;/span&gt;; otherwise we have the interesting result
 that &lt;span class="raw-html"&gt;\(I_* = 1 - (1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog about later. The expression for
@@ -68,28 +104,28 @@ the expected number of susceptibles at endemicity is more complex,&lt;/p&gt;&lt;
 
 &lt;p&gt;Next, let us consider an SIRS model with forcing,&lt;/p&gt;
 &lt;p&gt;&lt;span class="raw-html"&gt;\[\dot{S} = \omega R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
-\dot{R} = \gamma I - \omega R \, .]&lt;/span&gt;
+\dot{R} = \gamma I - \omega R \, .\]&lt;/span&gt;
 This set of equations does not have a closed form, but we can look for one in the
 &lt;span class="raw-html"&gt;\[S(t) = S_* + \epsilon x(t) \, , \quad\ I(t) = I_* + y(t) \, , \quad
-R(t) = N - S(t) - I(t) \, , \quad \beta(t) = \beta_* + \phi(t) \, .]&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_* I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .]&lt;/span&gt;&lt;/p&gt;
+R(t) = N - S(t) - I(t) \, , \quad \beta(t) = \beta_* + \phi(t) \, .\]&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_* I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;These have a solution when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go endemic (which
 happens when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/gamma &amp;gt; 1 \)&lt;/span&gt;; otherwise we have the interesting result
 that &lt;span class="raw-html"&gt;\(I_* = 1 - (1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog about later. The expression for
 the expected number of susceptibles at endemicity is more complex,&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 
 &lt;p&gt;&lt;span class="raw-html"&gt;\[\dot{S} = \omega R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
-\dot{R} = \gamma I - \omega R \, .]&lt;/span&gt;
+\dot{R} = \gamma I - \omega R \, .\]&lt;/span&gt;
 This set of equations does not have a closed form, but we can look for one in the
 &lt;span class="raw-html"&gt;\[S(t) = S_* + \epsilon x(t) \, , \quad\ I(t) = I_* + y(t) \, , \quad
-R(t) = N - S(t) - I(t) \, , \quad \beta(t) = \beta_* + \phi(t) \, .]&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_* I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .]&lt;/span&gt;&lt;/p&gt;
+R(t) = N - S(t) - I(t) \, , \quad \beta(t) = \beta_* + \phi(t) \, .\]&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_* I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;These have a solution when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go endemic (which
 happens when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/gamma &amp;gt; 1 \)&lt;/span&gt;; otherwise we have the interesting result
 that &lt;span class="raw-html"&gt;\(I_* = 1 - (1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog about later. The expression for
 the expected number of susceptibles at endemicity is more complex,&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 
-&lt;p&gt;&lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_* I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="raw-html"&gt;\[0 = \omega (N - S_* - I_*) - \beta_* S_* I_* \, , \qquad\ I_* = \beta_* S_* I_* - \gamma I_* \, .\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;These have a solution when &lt;span class="raw-html"&gt;\(I_* = 0\)&lt;/span&gt; that is unstable if the disease can go endemic (which
 happens when &lt;span class="raw-html"&gt;\(\mathcal{R}_0 = \beta_*/gamma &amp;gt; 1 \)&lt;/span&gt;; otherwise we have the interesting result
 that &lt;span class="raw-html"&gt;\(I_* = 1 - (1/\mathcal{R}_0)\)&lt;/span&gt;, which I hope to blog about later. The expression for
