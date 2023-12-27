@@ -11,12 +11,10 @@
 .. role:: raw-html(raw)
    :format: html
 
-**Note:** This blogpost was conceptualised in August 2021, and should be public
-early in 2024. My attempts to do long-form outreach were somewhat put on hold
-by work around the COVID pandemic. Anyway, with the problems going on at 𝕏
-(formerly Twitter), it's struck me that putting any such content on a website
-that I control probably has its advantages, so I hope to use this site more
-going forwards.
+**Note:** This blogpost was conceptualised in mid-2021, and should be public
+late in 2023. With the problems going on at 𝕏 (formerly Twitter), it's struck
+me that putting any such content on a website that I control probably has its
+advantages, so I hope to use this site more going forwards.
 
 .. image:: ../spring.jpg
    :width: 240px
@@ -30,10 +28,10 @@ the system would be at rest. There are three forces acting on the weight:
 
 * The spring pulls it towards equilibrium, to a first approximation,
   proportionally to its spring constant giving a force contribution
-  :raw-html:`\(k z\)`;
+  :raw-html:`\(-k z\)`;
 
 * As the weight moves, friction dissipates kinetic energy giving a force
-  contribution :raw-html:`\(\nu \dot{z}\)`;
+  contribution :raw-html:`\(-\nu \dot{z}\)`;
 
 * A human is pushing at the weight giving a time-dependent force contribution
   :raw-html:`\(\varphi(t)\)`.
@@ -52,7 +50,7 @@ R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
 \dot{R} = \gamma I - \omega R \, .\]` This models a system where individuals move
 from susceptible to infections upon contact with other infectious individuals,
 then recover, and after that immunity wanes and they become infectious again.
-the rate :raw-html:`\(\beta(t)\)` depending on time is supposed to capture
+The rate :raw-html:`\(\beta(t)\)` depending on time is supposed to capture
 different exogenous events: schools opening and closing; new vaccines; new
 variants; policy changes; and all sorts of other complexity. If you want to
 experiment with these equations numerically, check out `this Jupyter notebook
@@ -66,7 +64,7 @@ an approximate one using the Ansatz :raw-html:`\[S(t) = S_* + \epsilon x(t) \,
 to a fixed point of the dynamical system when :raw-html:`\(\epsilon = 0\)`,
 leading to the equations :raw-html:`\[0 = \omega (N - S_* - I_*) - \beta_* S_*
 I_* \, , \qquad\ 0 = \beta_* S_* I_* - \gamma I_* \, .\]` These have a solution
-when :raw-html:`\(I_* = 0\)` that is unstable if the disease can go endemic,
+when :raw-html:`\(S_* = N, I_* = 0\)` that is unstable if the disease can go endemic,
 i.e. when :raw-html:`\(\mathcal{R}_0 = \beta_*/\gamma > 1 \)`; the other fixed
 point is when :raw-html:`\(I_* = 1 - (1/\mathcal{R}_0)\)`, which I hope to blog
 about later. The expression for the expected number of susceptibles
@@ -83,10 +81,10 @@ and (2) (neglecting quadratic terms in :raw-html:`\(\epsilon\)`) above in the
 form of a two-dimensional vector differential equation
 :raw-html:`\[\dot{\mathbf{v}} = \boldsymbol{J} \mathbf{v} + \mathbf{F}(t) \, ,
 \qquad \mathrm{(3)} \]` where :raw-html:`\(\mathbf{v}\)` is a vector containing
-the dynamical variables -- :raw-html:`\((z,p)\)` for the spring and
-:raw-html:`\((x,y)\)` for the SIRS model -- :raw-html:`\(\boldsymbol{J}\)` is a
+the dynamical variables - :raw-html:`\((z,p)\)` for the spring and
+:raw-html:`\((x,y)\)` for the SIRS model - :raw-html:`\(\boldsymbol{J}\)` is a
 matrix depending on rate constants, and :raw-html:`\(\mathbf{F}(t)\)` is a
-vector function of time. The eagle-eyed will note that the details of the
+vector function of time. Some readers will note that the details of the
 versions of (3) derived from (1) and (2) are not quite the same, but also that
 equation (3) takes the same structure under the linear transformation
 :raw-html:`\[\tilde{\mathbf{v}} = \boldsymbol{T} \mathbf{v} \, ,\quad
@@ -103,5 +101,17 @@ oscillations, but it's not difficult to make the weight jump irregularly all
 over the place. And this is exactly what we can see with an endemic disease:
 there's no guarantee that oscillatory behaviour will be regular or predictable.
 
-Now, for many diseases that are  
+Now, for many diseases that are better established, we do indeed see relatively
+regular annual peaks, although predicting the exact timing and height of these
+even for very well studied diseases like influenza is not currently possible.
+But most experts think that the relative regularity of influenza compared to
+COVID arises because the exogenous forces are mainly annual events like school
+holidays, people moving in and outdoors with the weather, and maybe even a
+direct bio-physical impact of the weather, with evolutionary events generally
+having a less dramatic impact on disease transmission than they do for COVID.
+
+Because evolution is hard to predict, it's not clear that COVID will become
+more like influenza. Or even that it would be a good thing if it did. The
+purpose of this post, however, was to help explain why its unpredictability is
+at least somewhat predictable.
 

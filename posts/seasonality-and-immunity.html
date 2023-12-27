@@ -31,9 +31,9 @@
 <meta property="og:site_name" content="Thomas House's Personal Website">
 <meta property="og:title" content="Seasonality and Immunity">
 <meta property="og:url" content="https://personalpages.manchester.ac.uk/staff/thomas.house/posts/seasonality-and-immunity.html">
-<meta property="og:description" content="Note: This blogpost was conceptualised in August 2021, and should be public
-early in 2024. My attempts to do long-form outreach were somewhat put on hold
-by work around the COVID pandemic. Anyway, wit">
+<meta property="og:description" content="Note: This blogpost was conceptualised in mid-2021, and should be public
+late in 2023. With the problems going on at 𝕏 (formerly Twitter), it's struck
+me that putting any such content on a website tha">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2021-08-18T18:33:04Z">
 </head>
@@ -119,12 +119,10 @@ by work around the COVID pandemic. Anyway, wit">
         
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
-    <p><strong>Note:</strong> This blogpost was conceptualised in August 2021, and should be public
-early in 2024. My attempts to do long-form outreach were somewhat put on hold
-by work around the COVID pandemic. Anyway, with the problems going on at 𝕏
-(formerly Twitter), it's struck me that putting any such content on a website
-that I control probably has its advantages, so I hope to use this site more
-going forwards.</p>
+    <p><strong>Note:</strong> This blogpost was conceptualised in mid-2021, and should be public
+late in 2023. With the problems going on at 𝕏 (formerly Twitter), it's struck
+me that putting any such content on a website that I control probably has its
+advantages, so I hope to use this site more going forwards.</p>
 <img alt="Spring being pushed, with displacement z from equilibrium" class="align-right" src="../spring.jpg" style="width: 240px;"><p>So let's start by considering a weight on a spring as pictured - this is going
 to give us a physical 'model' of disease dynamics for an endemic infection. The
 weight on the spring is a distance <span class="raw-html">\(z(t)\)</span> from the point at which
@@ -132,9 +130,9 @@ the system would be at rest. There are three forces acting on the weight:</p>
 <ul class="simple">
 <li><p>The spring pulls it towards equilibrium, to a first approximation,
 proportionally to its spring constant giving a force contribution
-<span class="raw-html">\(k z\)</span>;</p></li>
+<span class="raw-html">\(-k z\)</span>;</p></li>
 <li><p>As the weight moves, friction dissipates kinetic energy giving a force
-contribution <span class="raw-html">\(\nu \dot{z}\)</span>;</p></li>
+contribution <span class="raw-html">\(-\nu \dot{z}\)</span>;</p></li>
 <li><p>A human is pushing at the weight giving a time-dependent force contribution
 <span class="raw-html">\(\varphi(t)\)</span>.</p></li>
 </ul>
@@ -151,7 +149,7 @@ R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
 \dot{R} = \gamma I - \omega R \, .\]</span> This models a system where individuals move
 from susceptible to infections upon contact with other infectious individuals,
 then recover, and after that immunity wanes and they become infectious again.
-the rate <span class="raw-html">\(\beta(t)\)</span> depending on time is supposed to capture
+The rate <span class="raw-html">\(\beta(t)\)</span> depending on time is supposed to capture
 different exogenous events: schools opening and closing; new vaccines; new
 variants; policy changes; and all sorts of other complexity. If you want to
 experiment with these equations numerically, check out <a class="reference external" href="https://github.com/thomasallanhouse/covid19-incidence/blob/main/bmj.ipynb">this Jupyter notebook</a>
@@ -163,7 +161,7 @@ an approximate one using the Ansatz <span class="raw-html">\[S(t) = S_* + \epsil
 to a fixed point of the dynamical system when <span class="raw-html">\(\epsilon = 0\)</span>,
 leading to the equations <span class="raw-html">\[0 = \omega (N - S_* - I_*) - \beta_* S_*
 I_* \, , \qquad\ 0 = \beta_* S_* I_* - \gamma I_* \, .\]</span> These have a solution
-when <span class="raw-html">\(I_* = 0\)</span> that is unstable if the disease can go endemic,
+when <span class="raw-html">\(S_* = N, I_* = 0\)</span> that is unstable if the disease can go endemic,
 i.e. when <span class="raw-html">\(\mathcal{R}_0 = \beta_*/\gamma &gt; 1 \)</span>; the other fixed
 point is when <span class="raw-html">\(I_* = 1 - (1/\mathcal{R}_0)\)</span>, which I hope to blog
 about later. The expression for the expected number of susceptibles
@@ -179,10 +177,10 @@ and (2) (neglecting quadratic terms in <span class="raw-html">\(\epsilon\)</span
 form of a two-dimensional vector differential equation
 <span class="raw-html">\[\dot{\mathbf{v}} = \boldsymbol{J} \mathbf{v} + \mathbf{F}(t) \, ,
 \qquad \mathrm{(3)} \]</span> where <span class="raw-html">\(\mathbf{v}\)</span> is a vector containing
-the dynamical variables -- <span class="raw-html">\((z,p)\)</span> for the spring and
-<span class="raw-html">\((x,y)\)</span> for the SIRS model -- <span class="raw-html">\(\boldsymbol{J}\)</span> is a
+the dynamical variables - <span class="raw-html">\((z,p)\)</span> for the spring and
+<span class="raw-html">\((x,y)\)</span> for the SIRS model - <span class="raw-html">\(\boldsymbol{J}\)</span> is a
 matrix depending on rate constants, and <span class="raw-html">\(\mathbf{F}(t)\)</span> is a
-vector function of time. The eagle-eyed will note that the details of the
+vector function of time. Some readers will note that the details of the
 versions of (3) derived from (1) and (2) are not quite the same, but also that
 equation (3) takes the same structure under the linear transformation
 <span class="raw-html">\[\tilde{\mathbf{v}} = \boldsymbol{T} \mathbf{v} \, ,\quad
@@ -197,7 +195,18 @@ line up just right with the how the spring behaves, you can get regular
 oscillations, but it's not difficult to make the weight jump irregularly all
 over the place. And this is exactly what we can see with an endemic disease:
 there's no guarantee that oscillatory behaviour will be regular or predictable.</p>
-<p>Now, for many diseases that are</p>
+<p>Now, for many diseases that are better established, we do indeed see relatively
+regular annual peaks, although predicting the exact timing and height of these
+even for very well studied diseases like influenza is not currently possible.
+But most experts think that the relative regularity of influenza compared to
+COVID arises because the exogenous forces are mainly annual events like school
+holidays, people moving in and outdoors with the weather, and maybe even a
+direct bio-physical impact of the weather, with evolutionary events generally
+having a less dramatic impact on disease transmission than they do for COVID.</p>
+<p>Because evolution is hard to predict, it's not clear that COVID will become
+more like influenza. Or even that it would be a good thing if it did. The
+purpose of this post, however, was to help explain why its unpredictability is
+at least somewhat predictable.</p>
     </div>
     <aside class="postpromonav"><nav><ul class="pager hidden-print">
 <li class="previous">
