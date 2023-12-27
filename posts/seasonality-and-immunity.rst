@@ -8,6 +8,13 @@
 .. type: text
 .. has_math: true
 
-Blog in preparation! 
+**Note:** This blogpost was conceptualised in August 2021, and 
 
+.. image:: ../spring.jpg
+   :width: 240px
+   :alt: Spring being pushed, with displacement z from equilibrium
+   :align: right
+
+
+Now, :raw-html:`\(F = ma\)`, and so 
 
