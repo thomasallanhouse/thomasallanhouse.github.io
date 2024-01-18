@@ -67,7 +67,7 @@ I_* \, , \qquad\ 0 = \beta_* S_* I_* - \gamma I_* \, .\]` These have a solution
 when :raw-html:`\(S_* = N, I_* = 0\)` that is unstable if the disease can go endemic,
 i.e. when :raw-html:`\(\mathcal{R}_0 = \beta_*/\gamma > 1 \)`; the other fixed
 point is when :raw-html:`\(S_* = 1/\mathcal{R}_0\)`, which I hope to blog
-about later. The expression for the expected number of susceptibles
+about later. The expression for the expected number of infectives
 :raw-html:`\(I_*\)` at endemicity is more complex; feel free to derive it for
 fun!  For our purposes here, we are interested in what we obtain at first order
 in :raw-html:`\(\epsilon\)`, which gives us :raw-html:`\[\dot{x} = - \omega x -
