@@ -49,7 +49,7 @@ Next, let us consider an SIRS model with forcing, :raw-html:`\[\dot{S} = \omega
 R - \beta(t) S I \, , \quad\ \dot{I} = \beta(t) S I - \gamma I \, , \quad
 \dot{R} = \gamma I - \omega R \, .\]` This models a system where individuals move
 from susceptible to infections upon contact with other infectious individuals,
-then recover, and after that immunity wanes and they become infectious again.
+then recover, and after that immunity wanes and they become susceptible again.
 The rate :raw-html:`\(\beta(t)\)` depending on time is supposed to capture
 different exogenous events: schools opening and closing; new vaccines; new
 variants; policy changes; and all sorts of other complexity. If you want to
@@ -66,9 +66,9 @@ leading to the equations :raw-html:`\[0 = \omega (N - S_* - I_*) - \beta_* S_*
 I_* \, , \qquad\ 0 = \beta_* S_* I_* - \gamma I_* \, .\]` These have a solution
 when :raw-html:`\(S_* = N, I_* = 0\)` that is unstable if the disease can go endemic,
 i.e. when :raw-html:`\(\mathcal{R}_0 = \beta_*/\gamma > 1 \)`; the other fixed
-point is when :raw-html:`\(I_* = 1 - (1/\mathcal{R}_0)\)`, which I hope to blog
+point is when :raw-html:`\(S_* = 1/\mathcal{R}_0\)`, which I hope to blog
 about later. The expression for the expected number of susceptibles
-:raw-html:`\(S_*\)` at endemicity is more complex; feel free to derive it for
+:raw-html:`\(I_*\)` at endemicity is more complex; feel free to derive it for
 fun!  For our purposes here, we are interested in what we obtain at first order
 in :raw-html:`\(\epsilon\)`, which gives us :raw-html:`\[\dot{x} = - \omega x -
 \omega y - \beta_* x I_* - \beta_* S_* y - \phi S_* I_* +

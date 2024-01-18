@@ -15,6 +15,17 @@ I'll send you a preprint.
 Peer-reviewed:
 --------------
 
+111. M. Ghafari, M. Hall, T. Golubchik, D. Ayoubkhani, **T. House**, G.
+MacIntyre-Cockett, H. R. Fryer, L. Thomson, A. Nurtay, S. A. Kemp, L. Ferretti,
+D. Buck, A. Green, A. Trebes, P. Piazza, L. J. Lonie, R. Studley, E. Rourke, D.
+Smith, M. Bashton, A. Nelson, M. Crown, C. McCann, G. R. Young , R. A. Nunes
+dos Santos, Z. Richards, A. Tariq, R. Cahuantzi, Wellcome Sanger Institute
+COVID-19 Surveillance Team, COVID-19 Infection Survey Group, The COVID-19 9
+Genomics UK (COG-UK) Consortium, J. Barrett, C. Fraser, D. Bonsall, A. S.
+Walker, K. Lythgoe, "Prevalence of persistent SARS-CoV-2 in a large community
+surveillance study." To appear in Nature.  [`medRxiv:2023.01.29.23285160
+<https://www.medrxiv.org/content/10.1101/2023.01.29.23285160v1>`__\ ]
+
 110. J. Curran-Sebastian, L. Pellis, I. Hall, **T. House**, "Calculation of
 Epidemic First Passage and Peak Time Probability Distributions." To appear in
 the SIAM/ASA Journal on Uncertainty Quantification. [`arXiv:2301.07058
@@ -26,8 +37,10 @@ Mobile Health Study: A Cluster Analysis." To appear in JMIR mHealth and
 uHealth.
 
 108. F. Pagani, A. Chevallier, S. Power, **T. House**, S. Cotter, "NuZZ:
-Numerical ZigZag Sampling for General Models." To appear in Statistics and
-Computing. [`arXiv:2003.03636 <https://arxiv.org/abs/2003.03636>`__\ ] 
+Numerical ZigZag Sampling for General Models." Statistics and Computing.
+**34** (2024) 61. [`link
+<https://link.springer.com/article/10.1007/s11222-023-10363-8>`__\ ]
+[`arXiv:2003.03636 <https://arxiv.org/abs/2003.03636>`__\ ] 
 
 107. H. R. Fryer, T. Golubchik, M. Hall, C. Fraser, R. Hinch, L. Ferretti, L.
 Thomson, A. Nurtay, L. Pellis, **T. House**, G. MacIntyre-Cockett, A. Trebes,
@@ -45,8 +58,8 @@ e1011461. [`link
 106. M. Fyles, K.-D. Vihta, C. H. Sudre, H. Long, R. Das, C. Jay, T. Wingfield,
 F. Cumming, W. Green, P. Hadjipantelis, J. Kirk, C. J. Steves, S. Ourselin, G.
 Medley, E. Fearon, **T. House**, "Diversity of symptom phenotypes in SARS-CoV-2
-community infections observed in multiple large datasets." To appear in
-Scientific Reports.  Scientific Reports **13** (2023) 21705.  [`link
+community infections observed in multiple large datasets." Scientific Reports
+**13** (2023) 21705.  [`link
 <https://www.nature.com/articles/s41598-023-47488-9>`__\ ] [`arXiv:2111.05728
 <https://arxiv.org/abs/2111.05728>`__\ ] 
 
