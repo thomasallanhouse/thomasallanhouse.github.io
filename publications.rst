@@ -7,13 +7,48 @@
 .. description: 
 .. type: text
 
-I try to publish open-access where I can; where that isn't possible I
-try to make preprints available either here or on the arXiv; but if you
-can't get any of the papers below and would like to, please email me and
-I'll send you a preprint.
+I try to publish open-access where I can; where that isn't possible I try to
+make preprints available either here or on preprint servers; but if you can't
+get any of the papers below and would like to, please email me and I'll send
+you a copy.
 
 Peer-reviewed:
 --------------
+
+115. K. B. Pouwels, D. W. Eyre, **T. House**, B. Aspey, P. C.  Matthews, N.
+Stoesser, J. N. Newton, I. Diamond, R. Studley, N. G.  H. Taylor, J. I. Bell,
+J. Farrar, J. Kolenchery, B. D. Marsden, S. Hoosdally, E. Y. Jones, D. I.
+Stuart, D. W. Crook, T. E. A.  Peto, A. S. Walker, the COVID-19 Infection
+Survey Team "Improving the representativeness of UK’s national COVID-19
+Infection Survey through spatio-temporal regression and post-stratification."
+To appear in BMC Medicine. [`medRxiv:2023.02.26.23286474
+<https://www.medrxiv.org/content/10.1101/2023.02.26.23286474v1>`__\ ]
+
+114. T. Althaus, C. E. Overton, I. Devaux, **T. House**, A. Lapouze,
+A. Troel, B. Vanzo, C. Berrin, M. Laroche, A. Bordero, P. Jorgensen, R. Pebody,
+E. Voiglio, "How effective is the BNT162b2 mRNA vaccine against SARS-CoV-2
+transmission and infection? A national programme analysis in Monaco, July 2021
+to September 2022." To appear in BMC Medicine. 
+
+113. E. Dietz, E. Pritchard, K. Pouwels, M. Ehsaan, J. Blake, C. Gaughan, E.
+Haduli, H. Boothe, K.-D. Vihta, T. Peto, N. Stoesser, P. Matthews, N. Taylor,
+I. Diamond, R. Studley, E. Rourke, P. Birrell, D. De Angelis, T. Fowler, C.
+Watson1, D. Eyre, **T. House**, A. S. Walker, "SARS-CoV-2, influenza A/B and
+respiratory syncytial virus positivity and association with influenza-like
+illness and self-reported symptoms, over the 2022/23 winter season in the UK: a
+longitudinal surveillance cohort." BMC Medicine **22** (2024) 143. 
+[`link
+<https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-024-03351-w>`__\ ]
+[`medRxiv:2023.10.11.23296866
+<https://www.medrxiv.org/content/10.1101/2023.10.11.23296866v1>`__\ ]
+
+112. R. Cahuantzi, K. Lythgoe, I. Hall, **T. House**, L. Pellis,
+"Analysis and comprehensive lineage identification for SARS-CoV-2 genomes
+through scalable learning methods." PNAS **121**:12 (2024) e2317284121.
+[`link
+<https://doi.org/10.1073/pnas.2317284121>`__\ ]
+[`bioRxiv:2022.09.14.507985
+<https://www.biorxiv.org/content/10.1101/2022.09.14.507985v2>`__\ ]
 
 111. M. Ghafari, M. Hall, T. Golubchik, D. Ayoubkhani, **T. House**, G.
 MacIntyre-Cockett, H. R. Fryer, L. Thomson, A. Nurtay, S. A. Kemp, L. Ferretti,
@@ -23,12 +58,18 @@ dos Santos, Z. Richards, A. Tariq, R. Cahuantzi, Wellcome Sanger Institute
 COVID-19 Surveillance Team, COVID-19 Infection Survey Group, The COVID-19 9
 Genomics UK (COG-UK) Consortium, J. Barrett, C. Fraser, D. Bonsall, A. S.
 Walker, K. Lythgoe, "Prevalence of persistent SARS-CoV-2 in a large community
-surveillance study." To appear in Nature.  [`medRxiv:2023.01.29.23285160
+surveillance study." Nature **626** (2024) 1094-1101.
+[`link
+<https://www.nature.com/articles/s41586-024-07029-4>`__\ ]
+[`medRxiv:2023.01.29.23285160
 <https://www.medrxiv.org/content/10.1101/2023.01.29.23285160v1>`__\ ]
 
 110. J. Curran-Sebastian, L. Pellis, I. Hall, **T. House**, "Calculation of
-Epidemic First Passage and Peak Time Probability Distributions." To appear in
-the SIAM/ASA Journal on Uncertainty Quantification. [`arXiv:2301.07058
+Epidemic First Passage and Peak Time Probability Distributions." SIAM/ASA
+Journal on Uncertainty Quantification **12**:2 (2024) 242-261.
+[`link
+<https://epubs.siam.org/doi/10.1137/23M1548049>`__\ ]
+[`arXiv:2301.07058
 <https://arxiv.org/abs/2301.07058>`__\ ] 
 
 109. C. L. Little, D. M. Schultz, **T. House**, W. G. Dixon, J. McBeth,
