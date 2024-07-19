@@ -15,20 +15,30 @@ you a copy.
 Peer-reviewed:
 --------------
 
+116. A. Dhiman, E. Yom-Tov, L. Pellis, M. Edelstein, R. Pebody, A. Hayward,
+**T. House**, T. Finnie, D. Guzman, V. Lampos, I. J. Cox, the Virus Watch
+Collaborative, "Estimating the household secondary attack rate and serial
+interval of COVID-19 using social media." To appear in Nature Digital Medicine.
+
 115. K. B. Pouwels, D. W. Eyre, **T. House**, B. Aspey, P. C.  Matthews, N.
 Stoesser, J. N. Newton, I. Diamond, R. Studley, N. G.  H. Taylor, J. I. Bell,
 J. Farrar, J. Kolenchery, B. D. Marsden, S. Hoosdally, E. Y. Jones, D. I.
 Stuart, D. W. Crook, T. E. A.  Peto, A. S. Walker, the COVID-19 Infection
 Survey Team "Improving the representativeness of UK’s national COVID-19
 Infection Survey through spatio-temporal regression and post-stratification."
-To appear in BMC Medicine. [`medRxiv:2023.02.26.23286474
+Nature Communications **15** (2024) 5340.
+[`link
+<https://www.nature.com/articles/s41467-024-49201-4>`__\ ]
+[`medRxiv:2023.02.26.23286474
 <https://www.medrxiv.org/content/10.1101/2023.02.26.23286474v1>`__\ ]
 
-114. T. Althaus, C. E. Overton, I. Devaux, **T. House**, A. Lapouze,
-A. Troel, B. Vanzo, C. Berrin, M. Laroche, A. Bordero, P. Jorgensen, R. Pebody,
-E. Voiglio, "How effective is the BNT162b2 mRNA vaccine against SARS-CoV-2
+114. T. Althaus, C. E. Overton, I. Devaux, **T. House**, A. Lapouze, A. Troel,
+B. Vanzo, C. Berrin, M. Laroche, A. Bordero, P. Jorgensen, R. Pebody, E.
+Voiglio, "How effective is the BNT162b2 mRNA vaccine against SARS-CoV-2
 transmission and infection? A national programme analysis in Monaco, July 2021
-to September 2022." To appear in BMC Medicine. 
+to September 2022." BMC Medicine **22** (2024) 227.  [`link
+<https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-024-03444-6>`__\
+]
 
 113. E. Dietz, E. Pritchard, K. Pouwels, M. Ehsaan, J. Blake, C. Gaughan, E.
 Haduli, H. Boothe, K.-D. Vihta, T. Peto, N. Stoesser, P. Matthews, N. Taylor,
@@ -74,8 +84,9 @@ Journal on Uncertainty Quantification **12**:2 (2024) 242-261.
 
 109. C. L. Little, D. M. Schultz, **T. House**, W. G. Dixon, J. McBeth,
 "Identifying Weekly Trajectories of Pain Severity Using Daily Data from a
-Mobile Health Study: A Cluster Analysis." To appear in JMIR mHealth and
-uHealth.
+Mobile Health Study: A Cluster Analysis." JMIR mHealth and uHealth. **12**
+(2024) e48582.  [`link <https://mhealth.jmir.org/2024/1/e48582>`__\ ]
+
 
 108. F. Pagani, A. Chevallier, S. Power, **T. House**, S. Cotter, "NuZZ:
 Numerical ZigZag Sampling for General Models." Statistics and Computing.
