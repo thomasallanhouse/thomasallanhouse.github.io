@@ -18,7 +18,8 @@ Peer-reviewed:
 116. A. Dhiman, E. Yom-Tov, L. Pellis, M. Edelstein, R. Pebody, A. Hayward,
 **T. House**, T. Finnie, D. Guzman, V. Lampos, I. J. Cox, the Virus Watch
 Collaborative, "Estimating the household secondary attack rate and serial
-interval of COVID-19 using social media." To appear in Nature Digital Medicine.
+interval of COVID-19 using social media." Nature Digital Medicine.  **7**
+(2024) 194.  [`link <https://www.nature.com/articles/s41746-024-01160-2>`__\ ]
 
 115. K. B. Pouwels, D. W. Eyre, **T. House**, B. Aspey, P. C.  Matthews, N.
 Stoesser, J. N. Newton, I. Diamond, R. Studley, N. G.  H. Taylor, J. I. Bell,
@@ -43,7 +44,7 @@ to September 2022." BMC Medicine **22** (2024) 227.  [`link
 113. E. Dietz, E. Pritchard, K. Pouwels, M. Ehsaan, J. Blake, C. Gaughan, E.
 Haduli, H. Boothe, K.-D. Vihta, T. Peto, N. Stoesser, P. Matthews, N. Taylor,
 I. Diamond, R. Studley, E. Rourke, P. Birrell, D. De Angelis, T. Fowler, C.
-Watson1, D. Eyre, **T. House**, A. S. Walker, "SARS-CoV-2, influenza A/B and
+Watson, D. Eyre, **T. House**, A. S. Walker, "SARS-CoV-2, influenza A/B and
 respiratory syncytial virus positivity and association with influenza-like
 illness and self-reported symptoms, over the 2022/23 winter season in the UK: a
 longitudinal surveillance cohort." BMC Medicine **22** (2024) 143. 
