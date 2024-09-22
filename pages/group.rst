@@ -20,26 +20,20 @@ good jobs in academia, the public sector, and industry.
 Postdoctoral
 ------------
 
-* `Roberto Cahuantzi <https://www.linkedin.com/in/roberto-cahuantzi/>`__,
-  working on classification of SARS-CoV-2 lineages in collaboration
-  with `Katrina Lythgoe <https://www.bdi.ox.ac.uk/Team/katrina-lythgoe>`__,
-  `Ian Hall
-  <https://www.research.manchester.ac.uk/portal/ian.hall.html>`__,
-  and `Lorenzo Pellis
-  <https://www.research.manchester.ac.uk/portal/lorenzo.pellis.html>`__.
+* Jingsi Xu working on community transmission models linked to the ONS CIS
+  data.  Workpackage led by `Ian Hall
+  <https://www.research.manchester.ac.uk/portal/ian.hall.html>`__.
 
-* `Feng Xu <http://www.drfengxu.com/>`__, working on an age-structured population model of the 
-  COVID-19 pandemic in the UK including explicit representation of hospitals and care homes,
-  in collaboration with
-  `Jackie Cassell <https://www.bsms.ac.uk/about/contact-us/staff/professor-jackie-cassell.aspx>`__,
-  `Jo Middleton <https://www.bsms.ac.uk/about/contact-us/staff/jo-middleton.aspx>`__,
-  `Ian Hall
-  <https://www.research.manchester.ac.uk/portal/ian.hall.html>`__,
-  and `Lorenzo Pellis
-  <https://www.research.manchester.ac.uk/portal/lorenzo.pellis.html>`__.
+* `Joe Hilton <https://jbhilton.github.io/>`__, 
+  research fellow in `Manchester Centre for Health Economics <https://sites.manchester.ac.uk/health-economics/>`__,
+  also working on ONS CIS data.
+
 
 Postgraduate
 ------------
+
+* Joel Jones, working on MCMC, main supervisor `Simon Cotter
+  <https://personalpages.manchester.ac.uk/staff/simon.cotter/>`__.
 
 * Joe Brooks, working on household models.  Main supervisor `Lorenzo Pellis
   <https://www.research.manchester.ac.uk/portal/lorenzo.pellis.html>`__.
@@ -71,6 +65,26 @@ Postgraduate
 Former
 ------
 
+* `Roberto Cahuantzi <https://www.linkedin.com/in/roberto-cahuantzi/>`__,
+  working on classification of SARS-CoV-2 lineages in collaboration
+  with `Katrina Lythgoe <https://www.bdi.ox.ac.uk/Team/katrina-lythgoe>`__,
+  `Ian Hall
+  <https://www.research.manchester.ac.uk/portal/ian.hall.html>`__,
+  and `Lorenzo Pellis
+  <https://www.research.manchester.ac.uk/portal/lorenzo.pellis.html>`__. Destination:
+  Postdoc in Manchester Faculty of Biology, Medicine and Health.
+
+* `Feng Xu <http://www.drfengxu.com/>`__, working on an age-structured population model of the 
+  COVID-19 pandemic in the UK including explicit representation of hospitals and care homes,
+  in collaboration with
+  `Jackie Cassell <https://www.bsms.ac.uk/about/contact-us/staff/professor-jackie-cassell.aspx>`__,
+  `Jo Middleton <https://www.bsms.ac.uk/about/contact-us/staff/jo-middleton.aspx>`__,
+  `Ian Hall
+  <https://www.research.manchester.ac.uk/portal/ian.hall.html>`__,
+  and `Lorenzo Pellis
+  <https://www.research.manchester.ac.uk/portal/lorenzo.pellis.html>`__. Destination:
+  Postdoc at University of Warwick.
+
 * Claire Little, working on predicting chronic pain using statistical learning.
   Main supervisor `John Mcbeth <https://www.research.manchester.ac.uk/portal/john.mcbeth.html>`__.
   Co-supervised by 
@@ -90,12 +104,13 @@ Former
   `Andrew Loudon
   <https://www.research.manchester.ac.uk/portal/andrew.loudon.html>`__.
   Co-supervised by `Korbinian Strimmer
-  <http://www.strimmerlab.org/korbinian.html>`__.
+  <http://www.strimmerlab.org/korbinian.html>`__. Destination: 
 
 * Luke Webb, working on models of emergency response capacity. Main supervisor
   `Ian Hall <http://www.maths.manchester.ac.uk/people/staff/profile/?ea=ian.hall>`__;
   co-supervised by `Paul Dark
-  <https://www.research.manchester.ac.uk/portal/paul.m.dark.html>`__.
+  <https://www.research.manchester.ac.uk/portal/paul.m.dark.html>`__. Destination:
+  Working at the UK Health Security Agency.
 
 * Bindu Vekaria, working on flexible clinical predictive models in
   collaboration with `Spectra Analytics <http://www.spectraanalytics.com/>`__.
@@ -178,7 +193,7 @@ Former
 * `Liz Buckingham-Jeffery
   <http://www.maths.manchester.ac.uk/people/staff/profile/?ea=e.buckingham-jeffery>`__,
   working on real-time methods in mathematical epidemiology and modelling cancer radiotherapy.
-  Destination: post-doc at the University of Manchester with `Lorenzo Pellis
+  Destination: Postdoc at the University of Manchester with `Lorenzo Pellis
   <https://www.research.manchester.ac.uk/portal/lorenzo.pellis.html>`__, then working for
   Highways England.
 
@@ -198,11 +213,11 @@ Former
 * `Lorenzo Pellis
   <https://www.research.manchester.ac.uk/portal/lorenzo.pellis.html>`__, postdoc on
   various aspects of mathematical epidemiology. Destination: Wellcome Trust
-  personal fellowship, and Reader at the University of Manchester.
+  personal fellowship, and Professor at the University of Manchester.
 
 * `Matt Graham
   <http://www2.warwick.ac.uk/fac/cross_fac/complexity/people/students/dtc/students2009/graham/>`__,
-  PhD on network epidemiology. Destination: post-doc at Johns Hopkins.
+  PhD on network epidemiology. Destination: Postdoc at Johns Hopkins.
 
 * `Dan Sprague
   <http://www2.warwick.ac.uk/fac/cross_fac/complexity/people/students/dtc/students2010/sprague/>`__,
@@ -211,10 +226,10 @@ Former
   Destination: founding `Spectra Analytics
   <http://www.spectraanalytics.com/>`__.
 
-* Ashley Ford, post-doc on geometric and gradient-based MCMC for shedding data
-  and epidemics.  Destination: post-doc at University of Bristol.
+* Ashley Ford, Postdoc on geometric and gradient-based MCMC for shedding data
+  and epidemics.  Destination: Postdoc at University of Bristol.
 
-* Sam Bilson, post-doc on geometric MCMC for shedding data.  Destination:
+* Sam Bilson, Postdoc on geometric MCMC for shedding data.  Destination:
   Visiting Lecturer at St Mary's, then tech industry.
  
 * Sam Mason, MRes on MCMC for 1918 Influenza, co-supervised by `Matt Keeling
