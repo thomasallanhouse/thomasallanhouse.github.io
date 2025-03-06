@@ -16,7 +16,11 @@
 Modules led
 -----------
 
-* Academic Year 2018-: MATH48061 and MATH68061, Multivariate Statistics.
+* Academic Years 2025-: MATH48292 and MATH68292, Statistical Machine learning.
+
+* Academic Year 2024-25: MATH48122 and MATH68122, Markov Chain Monte Carlo (with `Tim Waite <https://timwaite.github.io/>`__).
+
+* Academic Years 2018-25: MATH48061 and MATH68061, Multivariate Statistics.
 
 * Academic Year 2018-19: Statistics and Machine Learning for MSc in Data
   Science.
