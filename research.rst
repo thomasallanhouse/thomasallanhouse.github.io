@@ -19,25 +19,37 @@ statistical and computational methods that we need to understand these
 phenomena, but I also work on other things as shown in my `Publications <./publications.html>`__.
 
 The following are actually my profiles on different sites, as a way of using this
-site to validate my identity, updated with different levels of intensity.
+site to validate my identity.
+
+-----------------
+Regularly updated
+-----------------
 
 * `Google Scholar <https://scholar.google.com/citations?user=IIVEBa8AAAAJ>`__ 
 
 * `ORCiD <https://orcid.org/0000-0001-5835-8062>`__ 
 
-* `𝕏 (formerly Twitter) <https://twitter.com/TAH_Sci>`__ 
-
 * `BlueSky <https://bsky.app/profile/tah-sci.bsky.social>`__ 
+
+* `GitHub <https://github.com/thomasallanhouse>`__ 
+
+----------------------
+Intermittently updated
+----------------------
 
 * `Threads <https://www.threads.net/@tah_sci_>`__ 
 
 * `Mastodon <https://mas.to/@TAH_Sci>`__ 
 
-* `GitHub <https://github.com/thomasallanhouse>`__ 
-
-* `SourceForge <https://sourceforge.net/u/thouse/profile/>`__ (yes amusingly I have been doing this that long)
-
 * `Substack <https://substack.com/@thomashouse>`__ 
 
 * `YouTube <https://www.youtube.com/channel/UCSUW2qWLCKlRGz1q6hA7qxA>`__ 
+
+-----------
+Not updated
+-----------
+
+* `SourceForge <https://sourceforge.net/u/thouse/profile/>`__ (yes amusingly I have been doing this that long; all my current code now shared on GitHub however)
+
+* `𝕏 (formerly Twitter) <https://twitter.com/TAH_Sci>`__ (account now locked, I discourage anyone from joining or posting on this site due to Musk's behaviour)
 

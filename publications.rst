@@ -15,9 +15,36 @@ you a copy.
 Peer-reviewed:
 --------------
 
-116. A. P. S. Munro, **T.~House**, "Cycles of susceptibility: Immunity debt
-explains altered infectious disease dynamics post-pandemic," to appear in
-Clinical Infectious Diseases.
+120. B. Thatchai, C. E. Overton, **T. House**, "Investigating the
+Trade-off between Infections and Social Interactions Using a Compact Model of
+Endemic Infections on Networks." To appear in Mathematics in Medical and Life
+Sciences.
+[`arXiv:2410.05327 <https://arxiv.org/abs/2410.05327>`__\ ]
+
+119. M. K. Afuleni, R. Cahuantzi, K. A. Lythgoe, A. N. Mulaga, I. Hall,
+O. Johnson, **T. House**, "Epidemiological and phylogenetic analyses of
+public SARS-CoV-2 data from Malawi." To appear in PLOS Global Public Health
+[`medRxiv:2024.06.28.24309607 <https://www.medrxiv.org/content/10.1101/2024.06.28.24309607v1>`__\ ]
+
+118. X. Pang, Y. Han, E. Tessier, N. A. Aziz, L. Pellis, **T. House**,
+I. Hall, "Time-varying reproduction number estimation: Fusing compartmental
+models with generalised additive models." Journal of the Royal
+Society Interface **22** (2025) 20240518.
+[`link <https://doi.org/10.1098/rsif.2024.0518>`__\ ]
+[`medRxiv:2024.03.26.24304928 <https://www.medrxiv.org/content/10.1101/2024.03.26.24304928v1>`__\ ]
+
+117. P. J. Birrell, J. Blake, J. Kandiah, A. Alexopoulos, E. van Leeuwen,
+K. Pouwels, S. Ghosh, C. Starr, A. S. Walker, **T. House**, N. Gay,
+T. Finnie, N. Gent, A. Charlett, and D. De Angelis, "Real-time modelling of
+the SARS-CoV-2 pandemic in England 2020-2023: a challenging data integration,"
+to appear in Journal of the Royal Statistical Society Series A.
+[`arXiv:2408.04178 <https://arxiv.org/abs/2408.04178>`__\ ]
+
+116. A. P. S. Munro, **T. House**, "Cycles of susceptibility: Immunity debt
+explains altered infectious disease dynamics post-pandemic," Clinical
+Infectious Diseases (2024) ciae493.
+[`link <https://doi.org/10.1093/cid/ciae493>`__\ ]
+[`hal-04731541 <https://hal.science/hal-04731541>`__\ ]
 
 115. A. Dhiman, E. Yom-Tov, L. Pellis, M. Edelstein, R. Pebody, A. Hayward,
 **T. House**, T. Finnie, D. Guzman, V. Lampos, I. J. Cox, the Virus Watch
@@ -806,17 +833,40 @@ Review D* **71** (2005)
 Other publications:
 -------------------
 
-(xvi) **T. House**, L. Pellis, E. Pritchard, A. R. McLean, A. S. Walker,
-"Total Effect Analysis of Vaccination on Household Transmission in the Office
-for National Statistics COVID-19 Infection Survey."
-[`arXiv:2107.06545 <https://arxiv.org/abs/2107.06545>`__\ ]
+(xx) I. Buchan (Editor) et al. (2025) "Mobilising UK Data and AI for All with a
+National Grid of Civic Learning Systems." Northern Health Science Alliance and
+partners.
+[`link <https://www.thenhsa.co.uk/app/uploads/2025/03/National-Grid-of-Civic-Learning-Systems-NHSA-and-partners.pdf>`__\ ]
+
+(xix) S. P. C. Brand, M. P. C. Cavallaro, J. Hilton, L. M. Guzman Rincon,
+**T. House**, M. J. Keeling, D. J. Nokes, "The role of vaccination and
+public awareness in medium-term forecasts of monkeypox incidence in the United
+Kingdom.'' [`medRxiv:2022.08.15.22278788
+<https://www.medrxiv.org/content/10.1101/2022.08.15.22278788v1>`__\ ]
+
+(xviii) **T. House**, "Was lockdown necessary? - Details of SAGE advice."
+BMJ Rapid Response [`link <https://www.bmj.com/content/376/bmj.o776/rr-4>`__\
+]
+
+(xvii) S. Ahmad, B. Brown, A. Charlett, E. Davies, **T. House**,
+B. Kirkman, N. Machin, R. O'Hara, R. Paton, L. Pellis, T. Ward and
+C. E. Overton, "Early signals of Omicron severity in sentinel UK hospitals."
+ResearchSquare (2021) 
+[`link <https://doi.org/10.21203/rs.3.rs-1203019/v1>`__\ ]
+
+(xvi) E. Fearon, I. E. Buchan, R. Das, E. L. Davis, M. Fyles, I. Hall,
+T. D. Hollingsworth, \textbf{T. House}, C. Jay, G. F. Medley, L. Pellis,
+B. J. Quilty, M. E. P Silva, H. B. Stage, T. Wingfield, "SARS-CoV-2 antigen
+testing: weighing the false positives against the costs of failing to control
+transmission," The Lancet Respiratory Medicine  **9**:7 (2021) 685-687.
+[`link <https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(21)00234-4/fulltext>`__\ ]
 
 (xv) E. Fearon, E. L. Davis, H. B. Stage, I. Hall, L. Pellis, L. Yardley,
 M. Fyles, R. Das, **T. House**, T. Wingfield, "Rapid Response: A response
 to 'Covid-19: government must urgently rethink lateral flow test roll-out':
 lateral flow testing in contact tracing."
-`[https://www.bmj.com/content/372/bmj.n81/rr]
-<https://www.bmj.com/content/372/bmj.n81/rr>`__\
+[`https://www.bmj.com/content/372/bmj.n81/rr
+<https://www.bmj.com/content/372/bmj.n81/rr>`__\ ]
 
 (xiv) J. R. McKenzie, **T. House**, P. A. Appleby and N. Walton, "Fast
 Approximate Bayesian Contextual Cold Start Learning." 
