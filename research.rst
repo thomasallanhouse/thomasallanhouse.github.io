@@ -29,7 +29,7 @@ Regularly updated
 
 * `ORCiD <https://orcid.org/0000-0001-5835-8062>`__ 
 
-* `BlueSky <https://bsky.app/profile/tah-sci.bsky.social>`__ 
+* `BlueSky <https://bsky.app/profile/tah-sci.com>`__ 
 
 * `GitHub <https://github.com/thomasallanhouse>`__ 
 
