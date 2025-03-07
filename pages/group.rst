@@ -20,6 +20,9 @@ good jobs in academia, the public sector, and industry.
 Postdoctoral
 ------------
 
+* Golsa Sayyar working on household transmission models linked to the ONS CIS
+  data. 
+
 * Jingsi Xu working on community transmission models linked to the ONS CIS
   data.  Workpackage led by `Ian Hall
   <https://www.research.manchester.ac.uk/portal/ian.hall.html>`__.
@@ -31,6 +34,10 @@ Postdoctoral
 
 Postgraduate
 ------------
+
+* Yanis Meziani, working on limiting behaviour of Markov chains in mathematical
+  biology. Main supervisor `Malwina Luczak
+  <https://scholar.google.co.uk/citations?user=Dfzm6hsAAAAJ&hl=en/>`__.
 
 * Joel Jones, working on MCMC, main supervisor `Simon Cotter
   <https://personalpages.manchester.ac.uk/staff/simon.cotter/>`__.
