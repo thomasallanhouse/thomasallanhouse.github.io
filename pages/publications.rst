@@ -17,13 +17,16 @@ Peer-reviewed:
 
 120. B. Thatchai, C. E. Overton, **T. House**, "Investigating the
 Trade-off between Infections and Social Interactions Using a Compact Model of
-Endemic Infections on Networks." To appear in Mathematics in Medical and Life
-Sciences.
+Endemic Infections on Networks." Mathematics in Medical and Life
+Sciences.  **2**:1 (2025) 2468221. 
+[`link <https://doi.org/10.1080/29937574.2025.2468221>`__\ ]
 [`arXiv:2410.05327 <https://arxiv.org/abs/2410.05327>`__\ ]
 
 119. M. K. Afuleni, R. Cahuantzi, K. A. Lythgoe, A. N. Mulaga, I. Hall,
 O. Johnson, **T. House**, "Epidemiological and phylogenetic analyses of
-public SARS-CoV-2 data from Malawi." To appear in PLOS Global Public Health
+public SARS-CoV-2 data from Malawi." PLOS Global Public Health **5**:3 (2025)
+e0003943. 
+[`link <https://doi.org/10.1371/journal.pgph.0003943>`__\ ]
 [`medRxiv:2024.06.28.24309607 <https://www.medrxiv.org/content/10.1101/2024.06.28.24309607v1>`__\ ]
 
 118. X. Pang, Y. Han, E. Tessier, N. A. Aziz, L. Pellis, **T. House**,
