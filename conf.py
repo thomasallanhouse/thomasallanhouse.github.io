@@ -1084,7 +1084,13 @@ PRETTY_URLS = False
 # SCHEDULE_ALL = False
 
 # Do you want to add a Mathjax config file?
-# MATHJAX_CONFIG = ""
+#MATHJAX_CONFIG = """
+#<script type="text/x-mathjax-config">
+#MathJax.Hub.Config({
+  #jax: ["output/CommonHTML"],
+#});
+#</script>
+#"""
 
 # If you want support for the $.$ syntax (which may conflict with running
 # text!), just use this config:
