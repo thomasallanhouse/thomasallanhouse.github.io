@@ -6,9 +6,7 @@
 .. link: 
 .. description: 
 .. type: text
-
-.. role:: raw-html(raw)
-   :format: html
+.. has_math: true
 
 I have been asked by multiple students what to do with MCMC at
 boundaries, in particular how to treat proposals that lie outside the
