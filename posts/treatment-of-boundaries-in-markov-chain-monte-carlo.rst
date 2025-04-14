@@ -24,7 +24,7 @@ then
 .. math::
 
 
-   \mathrm{Pr}(\theta_{m+1} = \tilde{\theta}) = \mathrm{max}\left( 1, \frac{\pi(\tilde{\theta}) q(\theta | \tilde{\theta})}{\pi(\theta)q(\tilde{\theta} | \theta)}\right) \, , \quad
+   \mathrm{Pr}(\theta_{m+1} = \tilde{\theta}) = \mathrm{min}\left( 1, \frac{\pi(\tilde{\theta}) q(\theta | \tilde{\theta})}{\pi(\theta)q(\tilde{\theta} | \theta)}\right) \, , \quad
    \mathrm{Pr}(\theta_{m+1} = \theta_{m}) = 1 - \mathrm{Pr}(\theta_{m+1} = \tilde{\theta}) \, . \quad (\dagger)
 
 The natural question is, if there is somewhere we can
@@ -34,7 +34,7 @@ what should be done?
 Let us consider one parameter, a probability :math:`p\in [0,1]`, with a
 density :math:`\pi(p) = \mathrm{Uniform}(0,1)`, and a proposal
 distribution :math:`q(p'|p) = \mathcal{N}(p'|p,1)`. We will run chains
-of length :math:`N=10^7`.
+of length :math:`N=10^7`. Code is all in R.
 
 .. container:: cell
 
