@@ -34,14 +34,15 @@ Modules led
 
 * Academic Years 2010-12: MA390: Topics in Mathematical Biology.
 
-Other teaching (not comprehensive)
-----------------------------------
+Project supervision
+-------------------
 
-* I offer MSc Projects in Statistics, Data Science, and Applied Mathematics.
+* MSc Projects in Statistics, Data Science, and Applied Mathematics.
 
-* I offer Undergraduate Projects at levels 3 and 4 for 1 or 2 semesters.
+* Undergraduate Projects at levels 3 and 4 for 1 or 2 semesters.
 
-* Supervisions for 1st year Calculus, Vectors and Differential Equations.
+Selected past teaching
+----------------------
 
 * Lecturer on Communicable Diseases and Immunisation module.  Students on this
   course can download `this MATLAB code <../sir_model.zip>`__ to investigate
