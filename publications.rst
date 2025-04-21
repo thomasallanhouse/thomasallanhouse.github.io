@@ -40,7 +40,8 @@ Society Interface **22** (2025) 20240518.
 K. Pouwels, S. Ghosh, C. Starr, A. S. Walker, **T. House**, N. Gay,
 T. Finnie, N. Gent, A. Charlett, and D. De Angelis, "Real-time modelling of
 the SARS-CoV-2 pandemic in England 2020-2023: a challenging data integration,"
-to appear in Journal of the Royal Statistical Society Series A.
+Journal of the Royal Statistical Society Series A (2025) qnaf030.
+[`link <https://doi.org/10.1093/jrsssa/qnaf030>`__\ ]
 [`arXiv:2408.04178 <https://arxiv.org/abs/2408.04178>`__\ ]
 
 116. A. P. S. Munro, **T. House**, "Cycles of susceptibility: Immunity debt
