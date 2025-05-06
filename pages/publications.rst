@@ -14,6 +14,12 @@ you a copy.
 
 Peer-reviewed:
 --------------
+121. J. Curran-Sebastian, L. Dyson, E. M.~Hill, L. Pellis, I. Hall,
+**T. House**, "Probability of Extinction and Peak Time for Multi-Type
+Epidemics with Application to COVID-19 Variants of Concern." 
+Journal of Theoretical Biology (2025).  
+[`link <https://doi.org/10.1016/j.jtbi.2025.112135>`__\ ]
+[`preprint <https://ssrn.com/abstract=5021345>`__\ ]
 
 120. B. Thatchai, C. E. Overton, **T. House**, "Investigating the
 Trade-off between Infections and Social Interactions Using a Compact Model of
