@@ -14,10 +14,11 @@ you a copy.
 
 Peer-reviewed:
 --------------
+
 121. J. Curran-Sebastian, L. Dyson, E. M.~Hill, L. Pellis, I. Hall,
 **T. House**, "Probability of Extinction and Peak Time for Multi-Type
 Epidemics with Application to COVID-19 Variants of Concern." 
-Journal of Theoretical Biology (2025).  
+Journal of Theoretical Biology **608** (2025) 112135.  
 [`link <https://doi.org/10.1016/j.jtbi.2025.112135>`__\ ]
 [`preprint <https://ssrn.com/abstract=5021345>`__\ ]
 
@@ -760,7 +761,7 @@ Dynamics <http://www.hindawi.com/journals/ipid/2011/si.npidd.html>`__\ ".
 [`arXiv:1011.5950 <http://arxiv.org/abs/1011.5950>`__\ ] 
 
 15. **T. House** and M. J. Keeling, "Epidemic prediction and control in
-clustered populations," *Journal of Theoretical Biology *\ **272**:1
+clustered populations," *Journal of Theoretical Biology **272**:1
 (2011) 1-7. `[link] <http://dx.doi.org/10.1016/j.jtbi.2010.12.009>`__
 [`arXiv:1012.1974 <http://arxiv.org/abs/1012.1974>`__\ ].
 

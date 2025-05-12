@@ -1,4 +1,4 @@
-Sitemap: https://personalpages.manchester.ac.uk/staff/thomas.house/sitemapindex.xml
+Sitemap: https://tah-sci.com/sitemapindex.xml
 
 User-Agent: *
-Host: personalpages.manchester.ac.uk
+Host: tah-sci.com
