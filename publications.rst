@@ -15,6 +15,10 @@ you a copy.
 Peer-reviewed:
 --------------
 
+122. J.~Xu, M.~López-García,  **T. House**, I.~Hall, "Modelling the Dynamics of
+SARS-CoV-2 during early phase of infection." To appear in Epidemics.
+[`medRxiv:2025.02.12.25321951 <https://doi.org/10.1101/2025.02.12.25321951>`__\ ]
+
 121. J. Curran-Sebastian, L. Dyson, E. M.~Hill, L. Pellis, I. Hall,
 **T. House**, "Probability of Extinction and Peak Time for Multi-Type
 Epidemics with Application to COVID-19 Variants of Concern." 
@@ -843,6 +847,15 @@ Review D* **71** (2005)
 
 Other publications:
 -------------------
+
+(xxii) **T. House**, "Pandemic response: no one is immune to getting things
+wrong." BMJ (2025) 390:r1415
+[`link <https://doi.org/10.1136/bmj.r1415>`__\
+
+(xxi) **T. House**, "Thomas House's contribution to the Discussion of 'Some
+statistical aspects of the Covid-19 response' by Wood et al." Journal of the
+Royal Statistical Society Series A: Statistics in Society (2025) qnaf115
+[`link <https://doi.org/10.1093/jrsssa/qnaf115>`__\
 
 (xx) I. Buchan (Editor) et al. (2025) "Mobilising UK Data and AI for All with a
 National Grid of Civic Learning Systems." Northern Health Science Alliance and
